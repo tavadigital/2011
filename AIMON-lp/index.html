@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Monetize | Bukan Kamu yang Nggak Bisa Apa-apa, Kamu Cuma Belum Dikasih Urutannya</title>
+<meta name="description" content="App belajar AI dari HP, 15 menit sehari selama 30 hari: bikin caption jualan, deskripsi produk, dan desain promo untuk olshop, sampai tahu cara menawarkannya. Dibuka dari browser, tanpa install.">
+<meta property="og:title" content="AI Monetize | Bukan Kamu yang Nggak Bisa Apa-apa, Kamu Cuma Belum Dikasih Urutannya">
+<meta property="og:description" content="30 pelajaran, 15 menit sehari, cukup HP. Belajar memakai AI gratis untuk bikin caption, deskripsi produk, dan desain promo olshop. Tanpa install, tanpa akun.">
+<meta name="theme-color" content="#2E3A87">
+<link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pri:#222C6B;
+  --pri-mid:#2E3A87;
+  --pri-soft:#E4E7F7;
+  --pri-deep:#161A40;
+  --madu:#FFC93C;
+  --madu-soft:#FFF4D3;
+  --madu-text:#8A6408;
+  --bara:#C2414B;
+  --bara-soft:#FBE5E7;
+  --bg:#F6F5FF;
+  --pasir:#EEEDFA;
+  --card:#FFFFFF;
+  --line:#DEDDF0;
+  --line-soft:#EAE9F7;
+  --ink:#1E2140;
+  --muted:#5A5F82;
+  --muted-light:#7E82A3;
+  --sans:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --radius:14px;
+  --radius-lg:20px;
+  --sinyal:#FFC93C;
+  --sinyal-deep:#D49A12;
+  --maxw:1120px;
+  --maxw-text:680px;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;overflow-x:hidden;}
+img{max-width:100%;height:auto;display:block;}
+a{color:inherit;}
+h1,h2,h3,h4{margin:0;line-height:1.2;letter-spacing:-0.02em;color:var(--pri);font-family:var(--sans);}
+h1{font-size:clamp(31px,5.8vw,50px);font-weight:800;letter-spacing:-0.03em;line-height:1.1;}
+h2{font-size:clamp(25px,4.2vw,36px);font-weight:800;}
+h3{font-size:clamp(20px,2.6vw,24px);font-weight:700;}
+h4{font-size:17px;font-weight:700;}
+p{margin:0 0 1rem;}
+p:last-child{margin-bottom:0;}
+strong{font-weight:700;color:var(--pri);}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+.narrow{max-width:var(--maxw-text);margin-left:auto;margin-right:auto;}
+section{padding:56px 0;}
+@media(min-width:768px){section{padding:76px 0;}}
+.sec-alt{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.sec-deep{background:var(--pri-deep);color:#fff;}
+.sec-deep h2,.sec-deep h3{color:#fff;}
+.eyebrow{font-size:13.5px;font-weight:700;color:var(--pri-mid);margin:0 0 10px;}
+.eyebrow-bara{color:var(--bara);}
+.eyebrow-madu{color:var(--madu-text);}
+.lead{font-size:clamp(17px,2vw,19px);color:var(--muted);}
+.sec-deep .lead{color:#C9CEF0;}
+.center{text-align:center;}
+
+/* header */
+.site-head{background:var(--card);border-bottom:1px solid var(--line);padding:14px 0;position:relative;z-index:5;}
+.logo{display:inline-block;font-family:var(--sans);font-size:20px;font-weight:800;letter-spacing:-0.02em;color:var(--ink);text-decoration:none;line-height:1.2;}
+.logo em{font-style:normal;color:var(--pri-mid);}
+
+/* buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  background:var(--sinyal);color:var(--ink);text-decoration:none;
+  font-weight:800;font-size:17px;letter-spacing:-0.01em;
+  padding:17px 28px;border-radius:12px;border:none;cursor:pointer;
+  box-shadow:0 3px 0 var(--sinyal-deep);
+  transition:transform .12s ease,box-shadow .12s ease,background .12s ease;
+  text-align:center;width:100%;
+}
+@media(min-width:560px){.btn{width:auto;font-size:18px;padding:18px 34px;}}
+.btn:hover{background:#F2B51B;transform:translateY(-1px);box-shadow:0 4px 0 var(--sinyal-deep);}
+.btn:active{transform:translateY(2px);box-shadow:0 1px 0 var(--sinyal-deep);}
+.btn:focus-visible{outline:3px solid var(--pri-mid);outline-offset:3px;}
+.sec-deep .btn{background:var(--sinyal);color:var(--ink);box-shadow:0 3px 0 #0B0E2A;}
+.sec-deep .btn:hover{background:#F2B51B;}
+.btn-note{font-size:14.5px;color:var(--muted);margin-top:12px;}
+.sec-deep .btn-note{color:#A9B0E0;}
+.cta-block{margin-top:26px;}
+
+/* hero */
+.hero{background:var(--card);padding:28px 0 44px;border-bottom:1px solid var(--line);}
+.hero-grid{display:block;}
+.hero-img{margin:22px -20px 24px;}
+@media(min-width:900px){
+  .hero{padding:64px 0 72px;}
+  .hero-grid{display:grid;grid-template-columns:1fr 460px;grid-template-areas:"hd img" "rest img";column-gap:56px;align-items:center;}
+  .hero-hd{grid-area:hd;align-self:end;}
+  .hero-rest{grid-area:rest;align-self:start;padding-top:18px;}
+  .hero-img{grid-area:img;margin:0;align-self:center;}
+  .hero-img img{border-radius:var(--radius-lg);}
+}
+.hero-bullets{list-style:none;padding:0;margin:22px 0 0;}
+.hero-bullets li{position:relative;padding-left:30px;margin-bottom:12px;font-size:16.5px;color:var(--ink);}
+.hero-bullets li::before{content:"";position:absolute;left:0;top:8px;width:16px;height:16px;border-radius:50%;background:var(--pri-soft);border:2px solid var(--pri-mid);}
+.hero-bullets b{color:var(--pri);}
+.hero-facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:20px;font-size:14.5px;color:var(--muted);font-weight:600;}
+.hero-facts span{white-space:nowrap;}
+
+/* cards */
+.grid{display:grid;gap:18px;}
+@media(min-width:760px){.grid-3{grid-template-columns:repeat(3,1fr);}}
+@media(min-width:640px){.grid-2{grid-template-columns:repeat(2,1fr);}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;}
+.sec-alt .card{background:var(--bg);}
+.card-quote{font-size:20px;font-weight:800;color:var(--bara);margin:0 0 10px;line-height:1.3;letter-spacing:-0.01em;}
+.card p{font-size:16px;color:var(--muted);}
+.card h3{margin-bottom:10px;}
+
+.pilar{border-left:4px solid var(--pri-mid);padding:4px 0 4px 18px;margin-bottom:20px;}
+.pilar.p-anak{border-color:#7DB283;}
+.pilar.p-ortu{border-color:var(--madu);}
+.pilar.p-darurat{border-color:var(--bara);}
+.pilar h4{margin-bottom:4px;color:var(--pri);}
+.pilar p{font-size:16px;color:var(--muted);margin:0;}
+.pilar p b{color:var(--pri);}
+.golden{margin-top:28px;font-size:25px;font-weight:800;color:var(--pri);margin-bottom:6px;line-height:1.3;letter-spacing:-0.02em;}
+
+/* steps */
+.step{display:grid;gap:20px;padding:28px 0;border-top:1px solid var(--line);}
+.narrow + .step{border-top:none;}
+@media(min-width:1024px){
+  .step.dimg{grid-template-columns:1fr 1.45fr;gap:48px;align-items:center;}
+  .step-img{order:2;}
+}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--pri-mid);color:#fff;font-weight:800;font-size:16px;margin-bottom:12px;}
+.step-copy p{color:var(--muted);margin-top:10px;}
+.step-wide{display:block;}
+.step-wide .step-copy{max-width:var(--maxw-text);}
+
+/* screenshot frames */
+.shot{border:1px solid var(--line);border-radius:14px;background:var(--card);box-shadow:0 1px 3px rgba(30,33,64,.08);}
+.shot-r{max-width:300px;width:100%;margin-left:auto;margin-right:auto;}
+@media(min-width:1024px){.shot-r{max-width:100%;}}
+[data-zoom]{cursor:zoom-in;}
+.m-only{display:inline;}
+@media(min-width:700px){.m-only{display:none;}}
+figure{margin:0;}
+figcaption{font-size:13.5px;color:var(--muted);margin-top:8px;text-align:center;}
+
+/* feature rows */
+.feat{display:grid;gap:24px;padding:40px 0;border-top:1px solid var(--line);}
+@media(min-width:1024px){
+  .feat.dimg{grid-template-columns:1fr 1.45fr;gap:48px;align-items:center;}
+  .feat.dimg.flip{grid-template-columns:1.45fr 1fr;}
+  .feat-img{order:2;}
+  .feat.flip .feat-img{order:1;}
+  .feat.flip .feat-copy{order:2;}
+}
+.feat-copy h3{margin-bottom:12px;}
+.feat-copy p{color:var(--muted);font-size:16.5px;}
+.feat-pair{padding-top:40px;border-top:1px solid var(--line);}
+
+/* alat */
+.alat-tabs{display:none;}
+.alat-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:4px 20px 6px;margin:0 -20px;}
+.alat-track::-webkit-scrollbar{display:none;}
+.alat-item{flex:0 0 80%;scroll-snap-align:center;}
+.alat-item h3{font-size:19px;margin:16px 0 6px;}
+.alat-item p{font-size:15.5px;color:var(--muted);margin:0;}
+.alat-dots{display:flex;justify-content:center;gap:8px;margin-top:18px;}
+.alat-dots button,.testi-dots button{width:8px;height:8px;padding:0;border:none;border-radius:50%;background:var(--line);cursor:pointer;transition:background .2s ease,width .2s ease;}
+.alat-dots button.on,.testi-dots button.on{background:var(--pri-mid);width:22px;border-radius:5px;}
+.alat-dots button:focus-visible,.testi-dots button:focus-visible{outline:2px solid var(--pri-mid);outline-offset:3px;}
+@media(min-width:1024px){
+  .alat-tabs{display:flex;justify-content:center;gap:8px;margin-bottom:26px;flex-wrap:wrap;}
+  .alat-tabs button{font:inherit;font-size:15.5px;font-weight:700;color:var(--pri);background:var(--card);border:1.5px solid var(--line);border-radius:999px;padding:10px 20px;cursor:pointer;}
+  .alat-tabs button[aria-selected="true"]{background:var(--pri-mid);border-color:var(--pri-mid);color:#fff;}
+  .alat-tabs button:focus-visible{outline:3px solid var(--madu);outline-offset:2px;}
+  .alat-track{display:block;overflow:visible;padding:0;margin:0;}
+  .alat-item{display:none;}
+  .alat-item.on{display:grid;grid-template-columns:1.6fr 1fr;gap:40px;align-items:center;}
+  .alat-item h3{font-size:24px;margin:0 0 10px;}
+  .alat-item p{font-size:16.5px;}
+  .alat-dots{display:none;}
+}
+.also{max-width:var(--maxw-text);margin:34px auto 0;text-align:center;font-size:16px;color:var(--muted);}
+
+/* jelas */
+.clear-card p{color:var(--muted);font-size:16.5px;}
+.clear-yes{border-top:4px solid var(--pri-mid);}
+.clear-no{border-top:4px solid var(--madu);}
+
+.fitlist{list-style:none;padding:0;margin:0;}
+.fitlist li{position:relative;padding-left:30px;margin-bottom:13px;font-size:16.5px;}
+.fitlist li::before{position:absolute;left:0;top:0;font-weight:800;font-size:17px;}
+.fit-yes li::before{content:"✓";color:var(--pri-mid);}
+.fit-no li::before{content:"✕";color:var(--bara);}
+
+/* table */
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%;border:1px solid var(--line);border-radius:var(--radius);}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:15.5px;background:var(--card);}
+th,td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;}
+tbody tr:last-child th,tbody tr:last-child td{border-bottom:none;}
+thead th{font-size:13.5px;font-weight:700;color:var(--muted);border-bottom:2px solid var(--line);}
+thead th.hl{color:var(--pri);}
+tbody td.hl{font-weight:700;color:var(--pri);background:var(--pri-soft);}
+tbody th{font-weight:600;color:var(--ink);width:19%;}
+
+/* testimoni */
+.testi-grid{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:4px 20px 6px;margin:0 -20px;}
+.testi-grid::-webkit-scrollbar{display:none;}
+.testi-grid img{flex:0 0 78%;scroll-snap-align:center;width:100%;height:auto;border:1px solid var(--line);border-radius:16px;background:var(--card);box-shadow:0 1px 3px rgba(30,33,64,.08);}
+.testi-dots{display:flex;justify-content:center;gap:8px;margin-top:16px;}
+@media(min-width:700px){
+  .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;overflow:visible;padding:0;margin:0;}
+  .testi-grid img{flex:none;}
+  .testi-dots{display:none;}
+}
+
+/* nilai (naratif) */
+.story{max-width:var(--maxw-text);margin:0 auto 34px;}
+.story p{font-size:clamp(17px,2vw,18.5px);color:var(--muted);}
+.story p.punch{font-size:clamp(19px,2.4vw,22px);font-weight:700;color:var(--pri);line-height:1.45;margin-top:22px;}
+.price-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);padding:26px 22px;max-width:620px;margin:0 auto;}
+.sec-alt .price-card{background:var(--bg);}
+@media(min-width:640px){.price-card{padding:36px;}}
+.incl{list-style:none;padding:0;margin:18px 0 0;}
+.incl li{position:relative;padding:10px 0 10px 30px;border-bottom:1px solid var(--line-soft);font-size:16px;}
+.incl li:last-child{border-bottom:none;}
+.incl li::before{content:"✓";position:absolute;left:0;top:10px;font-weight:800;color:var(--pri-mid);}
+.once-box{text-align:center;background:var(--madu-soft);border-radius:var(--radius);padding:18px 20px;margin:24px 0 0;font-size:16.5px;color:var(--ink);}
+.once-box b{display:block;font-size:19px;color:var(--pri);margin-bottom:2px;}
+
+.flow{max-width:620px;margin:40px auto 0;}
+.flow h3{text-align:center;margin-bottom:18px;font-size:clamp(19px,2.4vw,22px);}
+.flow ol{list-style:none;padding:0;margin:0;counter-reset:f;}
+.flow li{counter-increment:f;position:relative;padding:0 0 18px 48px;font-size:16px;color:var(--muted);}
+.flow li:last-child{padding-bottom:0;}
+.flow li::before{content:counter(f);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--pri-soft);color:var(--pri);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:15px;}
+.flow li b{display:block;color:var(--pri);font-size:16.5px;}
+
+/* faq */
+.faq-key{background:var(--card);border:3px solid var(--madu);border-radius:var(--radius);padding:22px;margin-bottom:16px;}
+.faq-key h3{font-size:clamp(20px,3.2vw,23px);margin-bottom:12px;}
+.faq-key p{font-size:17.5px;color:var(--muted);margin:0 0 10px;}
+.faq-key ol{margin:0;padding:0 0 0 24px;font-size:clamp(17.5px,2.6vw,19px);line-height:1.5;}
+.faq-key li{margin-bottom:10px;padding-left:4px;}
+.faq-key li:last-child{margin-bottom:0;}
+.faq-key li::marker{font-weight:800;color:var(--madu-text);}
+.faq-key b{color:var(--pri);}
+.faq{border-top:1px solid var(--line);margin-top:30px;}
+.faq details{border-bottom:1px solid var(--line);}
+.faq summary{cursor:pointer;padding:18px 34px 18px 0;position:relative;font-weight:700;font-size:16.5px;color:var(--pri);list-style:none;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:"";position:absolute;right:6px;top:26px;width:9px;height:9px;border-right:2.5px solid var(--pri-mid);border-bottom:2.5px solid var(--pri-mid);transform:rotate(45deg);transition:transform .18s ease;}
+.faq details[open] summary::after{transform:rotate(-135deg);top:28px;}
+.faq summary:focus-visible{outline:2px solid var(--pri-mid);outline-offset:2px;}
+.faq .ans{padding:0 0 20px;color:var(--muted);font-size:16.5px;}
+
+.closing-line{font-size:25px;font-weight:800;color:#fff;margin-top:24px;line-height:1.3;letter-spacing:-0.02em;}
+
+/* sticky bar */
+.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding:10px 16px;box-shadow:0 -3px 14px rgba(30,33,64,.12);display:flex;align-items:center;gap:12px;transform:translateY(110%);transition:transform .25s ease;}
+.sticky-cta.on{transform:translateY(0);}
+.sticky-cta .sp{flex:1;min-width:0;}
+.sticky-cta .sp b{display:block;font-size:16.5px;color:var(--pri);line-height:1.2;}
+.sticky-cta .sp small{font-size:12.5px;color:var(--muted);}
+.sticky-cta .btn{width:auto;padding:14px 22px;font-size:15.5px;flex-shrink:0;}
+@media(min-width:900px){.sticky-cta{display:none;}}
+body.has-sticky{padding-bottom:82px;}
+@media(min-width:900px){body.has-sticky{padding-bottom:0;}}
+
+/* footer */
+.site-foot{background:var(--card);border-top:1px solid var(--line);padding:30px 0;text-align:center;}
+.site-foot .logo{display:block;margin-bottom:6px;}
+.site-foot small{font-size:13.5px;color:var(--muted-light);}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(14,16,40,.92);display:none;align-items:center;justify-content:center;padding:56px 12px 20px;}
+.lb.on{display:flex;}
+.lb-inner{max-width:1400px;width:100%;max-height:100%;overflow:auto;-webkit-overflow-scrolling:touch;border-radius:10px;}
+.lb img{width:auto;max-width:100%;max-height:86vh;margin:0 auto;border-radius:10px;}
+.lb-close{position:absolute;top:12px;right:12px;width:40px;height:40px;border-radius:50%;background:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+.lb-close:focus-visible{outline:3px solid var(--madu);outline-offset:2px;}
+.lb-close svg{width:18px;height:18px;}
+
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
+.pilar.pl-pelajari{border-color:#2E3A87;}
+.pilar.pl-praktik{border-color:#3CC7A0;}
+.pilar.pl-tawar{border-color:#FFC93C;}
+.eyebrow-a{color:#2E3A87;}
+.eyebrow-b{color:#1E8F6E;}
+.eyebrow-c{color:#8A6408;}
+.card-quote{color:var(--pri-mid);}
+.testi-note{font-size:14px;color:var(--muted);margin-top:18px;}
+@media(min-width:700px){
+  .testi-grid{grid-template-columns:repeat(6,1fr);}
+  .testi-grid img{grid-column:span 2;}
+  .testi-grid img:nth-child(4){grid-column:2 / span 2;}
+}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="AI Monetize, halaman utama">AI <em>Monetize</em></a>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-hd">
+        <h1>Bukan kamu yang nggak bisa apa-apa. Kamu cuma belum dikasih urutannya.</h1>
+      </div>
+      <div class="hero-img">
+        <img src="img/hero-mockup.webp" alt="AI Monetize: belajar AI dari HP, 15 menit sehari. Latihan bikin caption, deskripsi produk, dan desain promo buat olshop, dengan Jalur 30 Hari, Racik Prompt, dan Peta Klien" width="1122" height="1402" fetchpriority="high">
+      </div>
+      <div class="hero-rest">
+        <p class="lead">HP yang selama ini cuma buat WA ternyata cukup buat mulai. AI Monetize adalah app di HP yang ngajarin kamu memakai AI gratis (ChatGPT, Gemini, Canva) untuk bikin caption jualan, deskripsi produk, dan desain promo yang dicari olshop. Satu pelajaran 15 menit sehari, langsung praktik, selama 30 hari, sampai kamu tahu cara menawarkannya.</p>
+        <ul class="hero-bullets">
+          <li><b>Gaptek, belum pernah pakai ChatGPT?</b> Pelajaran 1 mulai dari membuka AI-nya di HP. Kartunya pendek, ada contoh sebelum dan sesudah, lalu satu misi praktik.</li>
+          <li><b>Pernah coba, hasilnya kaku kayak robot?</b> Racik Prompt menyusun perintah lengkap dari data produknya, lalu Cek &amp; Rapikan memeriksa hasilnya pakai 8 poin.</li>
+          <li><b>Bingung nawarinnya ke siapa?</b> Ada Peta Klien dari lingkaran sendiri, 18 contoh pesan tinggal disesuaikan, dan Kalkulator Harga.</li>
+        </ul>
+        <div class="cta-block">
+          <a class="btn" href="checkout.html">Mulai Pelajaran Pertama →</a>
+          <p class="btn-note">Dibuka dari browser HP atau laptop. Tanpa install, tanpa akun.</p>
+        </div>
+        <div class="hero-facts">
+          <span>30 pelajaran</span>
+          <span>15 menit sehari</span>
+          <span>cukup HP</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ADEGAN -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:34px;">
+      <h2>Baca tiga ini. Kalau ada satu yang kejadian minggu ini, kamu di tempat yang benar.</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <p class="card-quote">“Ini buat obat, Mas. Cuma seratus delapan puluh.”</p>
+        <p>Tiap butuh sesuatu buat diri sendiri, kamu harus minta dulu. Kadang dikasih, kadang diceramahi soal boros. Lama-lama kamu memilih nahan aja.</p>
+      </div>
+      <div class="card">
+        <p class="card-quote">“Nggak kerja aja semua dicukupin.”</p>
+        <p>Kalimatnya diucapkan sambil ketawa di acara keluarga. Kamu ikut senyum, lalu balik ke dapur. Padahal kerjaanmu dari subuh sampai malam nggak pernah ada habisnya.</p>
+      </div>
+      <div class="card">
+        <p class="card-quote">“Pengin bantu Ibu, tapi uangnya bukan uangku.”</p>
+        <p>Ibumu di kampung butuh sesuatu. Kamu sisihkan dari uang belanja diam-diam, terus merasa bersalah dua kali: ke Ibu karena kecil, ke rumah karena dipotong.</p>
+      </div>
+    </div>
+    <p class="narrow lead center" style="margin-top:30px;">Tiga adegan ini kelihatan beda. Akarnya sama, dan bukan karena kamu kurang pintar atau kurang rajin.</p>
+  </div>
+</section>
+
+<!-- MEKANISME -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow">
+      <h2>Kamu bukan nggak mampu. Kamu belum punya pegangan sendiri.</h2>
+      <p style="margin-top:18px;">Banyak ibu sebenarnya sudah melihat jalannya: olshop teman sekolah, tetangga yang jualan kue, grup arisan yang tiap hari posting dagangan. Mereka semua butuh caption, deskripsi produk, dan desain promo, tapi nggak sempat bikin sendiri. AI gratis di HP bisa bantu bikin semua itu. Masalahnya, materinya tercecer di ratusan video, dan nggak ada yang ngajarin dari nol sampai berani menawarkan.</p>
+      <p>AI Monetize memakai <b>Metode 3P 15 Menit</b>, dijalankan sebagai Jalur 30 Hari:</p>
+
+      <div style="margin-top:26px;">
+        <div class="pilar pl-pelajari"><h4>Pelajari · Tahap 1</h4><p>Kenalan AI dari HP. Buka ChatGPT dan Gemini gratis, cara bertanya, cara cek hasil, data apa yang jangan dimasukkan.</p></div>
+        <div class="pilar pl-praktik"><h4>Praktikkan · Tahap 2 dan 3</h4><p>Caption &amp; Deskripsi Produk, lalu Desain Promo di Canva gratis. Tiap pelajaran ada misi bikin hasil nyata.</p></div>
+        <div class="pilar pl-tawar"><h4>Penawaran · Tahap 4</h4><p>Portofolio, calon klien, contoh pesan, dan hitungan harga untuk jasa pertamamu.</p></div>
+      </div>
+
+      <p style="margin-top:26px;">Saat mulai, kamu memilih <b>jenis olshop yang paling dekat denganmu</b>: fashion muslim, makanan rumahan, skincare, perlengkapan anak, atau lainnya. Contoh di alat ikut menyesuaikan.</p>
+
+      <p class="golden">Targetnya bukan jadi ahli AI. Targetnya punya hasil kerja yang bisa kamu tunjukkan ke olshop pertama.</p>
+      <p style="color:var(--muted);">Aturan yang dijaga app: satu pelajaran, satu misi, 15 menit. Pelajaran berikutnya baru terbuka setelah yang ini selesai, jadi kamu nggak loncat-loncat lalu bingung sendiri.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARA KERJA -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:10px;">
+      <h2>Kamu nggak perlu ngerti AI dulu. App-nya yang nuntun.</h2>
+    </div>
+
+    <div class="step step-wide">
+      <div class="step-copy">
+        <div class="step-num">1</div>
+        <h3>Masukkan kode akses</h3>
+        <p>Kodenya ada di Panduan Akses di emailmu. Cukup sekali, setelah itu tersimpan.</p>
+      </div>
+    </div>
+
+    <div class="step dimg">
+      <div class="step-copy">
+        <div class="step-num">2</div>
+        <h3>Kenalan sebentar, kurang dari 1 menit</h3>
+        <p>Isi nama panggilan, kapan biasanya sempat (subuh, siang, atau malam), dan jenis olshop yang paling dekat denganmu.</p>
+      </div>
+      <div class="step-img">
+        <picture><source media="(min-width:1024px)" srcset="img/onboarding-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/onboarding.webp" alt="Layar kenalan: Olshop jenis apa yang paling dekat sama kamu? Pilihan fashion muslim, makanan rumahan, skincare dan kecantikan lokal, perlengkapan anak dan bayi, atau lainnya" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="step step-wide">
+      <div class="step-copy">
+        <div class="step-num">3</div>
+        <h3>Buka Pelajaran 1</h3>
+        <p>Langsung masuk pelajaran pertama. Nyalakan timer 15 menit kalau mau, baca kartunya, lalu kerjakan misinya di HP.</p>
+      </div>
+    </div>
+
+    <div class="cta-block narrow center" style="margin-top:34px;">
+      <a class="btn" href="checkout.html">Mulai Pelajaran Pertama →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FITUR -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center">
+      <h2>Yang kamu pakai tiap hari</h2>
+    </div>
+
+    <div class="feat dimg" style="border-top:none;">
+      <div class="feat-copy">
+        <p class="eyebrow eyebrow-a">Pelajaran Harian</p>
+        <h3>Sebelum semua bangun, satu pelajaran selesai.</h3>
+        <p style="margin-top:12px;">Buka Beranda, ketuk pelajaran hari ini. Ada kartu konsep pendek, contoh sebelum dan sesudah, lalu misi praktik yang langsung membuka alatnya. Kuis 3 soal di akhir, buat mengecek saja, nggak menghalangi.</p>
+        <p>Ada timer 15 menit dengan bunyi lonceng di menit ke-15. Kemajuanmu terlihat di Peta Jalur 30 Hari: pelajaran mana yang sudah selesai, mana yang berikutnya.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/pelajaran-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/pelajaran.webp" alt="Layar misi praktik Pelajaran 24 Siapa klien pertamamu, dengan timer 14:58 dan tombol Kerjakan sekarang" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="feat dimg flip">
+      <div class="feat-copy">
+        <p class="eyebrow eyebrow-b">Racik Prompt</p>
+        <h3>Isi data produknya, perintahnya jadi.</h3>
+        <p style="margin-top:12px;">Pilih tugas: caption feed, status WA, deskripsi marketplace, judul produk, ide konten 7 hari, balasan chat pembeli, atau teks desain promo. Isi nama produk, bahan, harga, keunggulan, dan gaya bahasanya. App merakit perintah lengkap. Tinggal Salin, Buka ChatGPT atau Gemini, tempel.</p>
+        <p>Hasilnya masih kaku? Ada 11 prompt lanjutan satu ketuk: buat 3 versi, lebih singkat, lebih santai, biar kayak manusia. Setelah itu tempel hasilnya di Cek &amp; Rapikan: 8 poin anti generik, penghitung karakter, dan peringatan kalau ada klaim berisiko seperti "pasti kurus" atau "BPOM" yang belum tentu benar.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/racik-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/racik.webp" alt="Layar Racik Prompt: Mau bikin apa hari ini? Pilihan caption feed IG atau FB, caption status WA, deskripsi produk marketplace, judul produk, dan ide konten 7 hari" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="feat dimg">
+      <div class="feat-copy">
+        <p class="eyebrow eyebrow-c">Bank Pesan + Peta Klien</p>
+        <h3>Ngomongnya gimana? Udah ada contohnya.</h3>
+        <p style="margin-top:12px;">18 pesan siap disesuaikan: ke teman lama, ke olshop yang belum kenal, tawaran contoh gratis, follow-up yang sopan, jawaban waktu ditanya "berapa?" dan waktu ditawar, sampai minta testimoni.</p>
+        <p>Calon klien dicatat di Peta Klien, 20 orang dari lingkaran sendiri, lengkap dengan statusnya. Tinggal Salin, lalu kirim sendiri dari WA-mu.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/bank-pesan-d.webp" width="1400" height="875"><img class="shot shot-r" data-zoom src="img/bank-pesan.webp" alt="Layar Bank Pesan: contoh pesan Tawar paket mingguan untuk calon klien Rina, dengan pengingat kirim satu-satu dan tombol Salin pesan" width="728" height="1575" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="feat-pair">
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Diem-diem dulu juga bisa.</h3>
+          <p>Data tersimpan di HP kamu, bukan di server kami. Ada kunci PIN, Mode Samaran yang membuat tampilannya seperti catatan latihan biasa, dan tombol Tutup Cepat.</p>
+        </div>
+        <div class="card">
+          <h3>Satu HP sudah cukup.</h3>
+          <p>Dibuka dari browser HP atau laptop. Nggak perlu laptop, nggak perlu langganan alat apa pun.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALAT -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:30px;">
+      <h2>Dan alat untuk langkah yang paling bikin ragu.</h2>
+      <p class="lead" style="margin-top:12px;">Semuanya bisa dibuka kapan saja dari menu app.<span class="m-only"> Geser untuk melihat yang lain.</span></p>
+    </div>
+
+    <div class="alat-tabs" role="tablist" aria-label="Pilih alat">
+      <button type="button" role="tab" id="tab-promo" aria-controls="alat-promo" aria-selected="true">Studio Promo</button>
+      <button type="button" role="tab" id="tab-karya" aria-controls="alat-karya" aria-selected="false" tabindex="-1">Halaman Contoh Karya</button>
+      <button type="button" role="tab" id="tab-harga" aria-controls="alat-harga" aria-selected="false" tabindex="-1">Kalkulator Harga</button>
+      <button type="button" role="tab" id="tab-kas" aria-controls="alat-kas" aria-selected="false" tabindex="-1">Buku Kas</button>
+    </div>
+
+    <div class="alat-track" id="alatTrack">
+      <div class="alat-item on" id="alat-promo" role="tabpanel" aria-labelledby="tab-promo">
+        <picture><source media="(min-width:1024px)" srcset="img/studio-promo-d.webp" width="1400" height="875"><img class="shot" data-zoom src="img/studio-promo.webp" alt="Layar Studio Promo: isian nama produk Gamis Rayon Polos Nayla, nama olshop, pilihan jenis promo diskon, produk baru, pre-order, bundling, gratis ongkir, dan tempat pasang" width="728" height="1575" loading="lazy"></picture>
+        <div>
+          <h3>Studio Promo</h3>
+          <p>Pilih jenis promo (diskon, produk baru, pre-order, bundling, ongkir) dan ukurannya (feed, story, status WA). App menyiapkan teks promonya, perintah untuk AI di Canva atau Gemini, 12 resep layout, dan checklist desain. Desainnya kamu buat sendiri di Canva gratis.</p>
+        </div>
+      </div>
+      <div class="alat-item" id="alat-karya" role="tabpanel" aria-labelledby="tab-karya">
+        <picture><source media="(min-width:1024px)" srcset="img/contoh-karya-d.webp" width="1400" height="875"><img class="shot" data-zoom src="img/contoh-karya.webp" alt="Layar Contoh Karyaku: memilih 3 sampai 6 karya terbaik, lalu halaman perkenalan Halo, aku Fitri, aku bantu olshop bikin caption, deskripsi produk, dan desain promo" width="728" height="1575" loading="lazy"></picture>
+        <div>
+          <h3>Halaman Contoh Karya</h3>
+          <p>Simpan hasil latihan terbaik jadi portofolio. Pilih 3 sampai 6 karya untuk satu halaman yang bisa ditunjukkan ke calon klien. Kartu karya bisa diunduh sebagai gambar.</p>
+        </div>
+      </div>
+      <div class="alat-item" id="alat-harga" role="tabpanel" aria-labelledby="tab-harga">
+        <picture><source media="(min-width:1024px)" srcset="img/kalkulator-d.webp" width="1400" height="875"><img class="shot" data-zoom src="img/kalkulator.webp" alt="Layar Kalkulator Harga: hitung harga dari waktu kerjamu sendiri, pilihan jasa caption jualan, deskripsi produk, desain promo, dan isian menit per karya" width="728" height="1575" loading="lazy"></picture>
+        <div>
+          <h3>Kalkulator Harga</h3>
+          <p>Isi berapa menit per karya dan target per jam yang kamu tentukan sendiri. Hasilnya 3 paket (coba, mingguan, bulanan) plus teks daftar harga siap kirim. Ada juga kisaran harga pasar per November 2026 dari sumber publik, sebagai gambaran, bukan patokan wajib.</p>
+        </div>
+      </div>
+      <div class="alat-item" id="alat-kas" role="tabpanel" aria-labelledby="tab-kas">
+        <picture><source media="(min-width:1024px)" srcset="img/buku-kas-d.webp" width="1400" height="875"><img class="shot" data-zoom src="img/buku-kas.webp" alt="Layar Buku Kas Jasa: ringkasan bulan ini, sudah masuk, belum dibayar, jumlah klien, grafik 6 bulan terakhir, dan pengingat order yang belum dibayar" width="728" height="1575" loading="lazy"></picture>
+        <div>
+          <h3>Buku Kas</h3>
+          <p>Catat tiap order: klien, jasa, nominal, sudah dibayar atau belum. Kelihatan total per bulan dan pengingat kalau klien lama sudah waktunya order lagi. Angkanya cuma milikmu.</p>
+        </div>
+      </div>
+    </div>
+    <div class="alat-dots" id="alatDots" aria-hidden="true">
+      <button type="button" class="on" data-i="0" aria-label="Alat 1"></button>
+      <button type="button" data-i="1" aria-label="Alat 2"></button>
+      <button type="button" data-i="2" aria-label="Alat 3"></button>
+      <button type="button" data-i="3" aria-label="Alat 4"></button>
+    </div>
+
+    <p class="also">Juga ada Mode Tanpa AI (40 kerangka caption tinggal diisi, untuk saat AI-nya lagi nggak bisa dipakai), 4 bonus siap cetak (Kartu 30 Prompt Olshop, Naskah Penawaran Pertama, Lembar Daftar Harga, Kalender 15 Menit 30 Hari), Mode Kerja setelah 30 hari, dan Pindah Progres untuk ganti HP.</p>
+  </div>
+</section>
+
+<!-- SUPAYA JELAS -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Supaya jelas dari awal</h2>
+    </div>
+    <div class="grid grid-2">
+      <div class="card clear-card clear-yes">
+        <h3>AI Monetize bisa</h3>
+        <p>menuntun kamu belajar memakai AI gratis dari HP, satu pelajaran 15 menit sehari selama 30 pelajaran. Merakit perintah dari data produk, mengecek hasilnya, menyimpan karyamu jadi portofolio, dan menyiapkan calon klien, contoh pesan, serta hitungan harga untuk menawarkan jasa pertama.</p>
+      </div>
+      <div class="card clear-card clear-no">
+        <h3>AI Monetize bukan</h3>
+        <p>AI-nya sendiri. App ini tidak membuat caption atau gambar sendiri. Kamu tetap memakai ChatGPT, Gemini, atau Canva versi gratis milikmu, dan butuh internet untuk membukanya. Syarat versi gratis alat-alat itu bisa berubah sewaktu-waktu. Bukan kelas video atau mentor. <b>Tidak menjanjikan penghasilan, klien, atau angka apa pun.</b> Laku atau tidaknya jasa bergantung pada usaha dan pasar masing-masing. Cerita di iklan adalah drama fiksi. Bukan nasihat pernikahan, hukum, atau keuangan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UNTUK SIAPA -->
+<section>
+  <div class="wrap">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3 style="margin-bottom:16px;">Cocok kalau</h3>
+        <ul class="fitlist fit-yes">
+          <li>Kamu ibu atau istri yang ingin punya uang sendiri dari rumah, tanpa kerja kantoran.</li>
+          <li>HP-mu selama ini cuma buat WA dan kamu belum pernah atau baru sekali dua kali coba AI.</li>
+          <li>Kamu kenal teman, tetangga, atau grup yang jualan online.</li>
+          <li>Kamu bisa menyisihkan 15 menit sehari, subuh, siang, atau malam.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:16px;">Bukan untuk kamu kalau</h3>
+        <ul class="fitlist fit-no">
+          <li>Kamu cari cara cepat dapat uang. Ini belajar 30 hari, hasil tiap orang beda.</li>
+          <li>Kamu mau app yang langsung bikinin caption tanpa kamu ikut mengerjakan.</li>
+          <li>Kamu sudah lancar memakai AI dan sudah punya klien jasa konten.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PERBANDINGAN -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Kenapa app ini, bukan cara yang biasa dicoba.</h2>
+    </div>
+    <div class="tbl-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Konten "cuan dari AI" di TikTok atau IG</th>
+            <th>Webinar atau kelas AI online</th>
+            <th>Ebook atau kumpulan prompt</th>
+            <th class="hl">AI Monetize</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th>Urutan belajar</th><td>Loncat-loncat, tergantung algoritma</td><td>Padat 3 jam sekali duduk</td><td>Dibaca sendiri</td><td class="hl">30 pelajaran berurutan, 15 menit sehari</td></tr>
+          <tr><th>Praktik</th><td>Nonton doang</td><td>Ingat materi, bingung praktiknya</td><td>Contoh umum</td><td class="hl">Misi tiap pelajaran dan perintah dari data produknya</td></tr>
+          <tr><th>Sampai menawarkan</th><td>Jarang dibahas</td><td>Berhenti di ide</td><td>Kadang ada daftar ide</td><td class="hl">Peta Klien, 18 contoh pesan, Kalkulator Harga</td></tr>
+          <tr><th>Dari HP</th><td>Ya</td><td>Sering butuh laptop dan jam tertentu</td><td>Ya</td><td class="hl">Ya, kapan saja</td></tr>
+          <tr><th>Biaya</th><td>Gratis, tapi tercecer</td><td>Sekitar Rp200 ribuan per program</td><td>Puluhan sampai ratusan ribu</td><td class="hl">Sekali bayar, tanpa langganan</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Cerita dari yang sudah pakai.</h2>
+      <p class="lead" style="margin-top:12px;"><span class="m-only">Geser untuk melihat cerita lainnya. </span>Nomor disensor untuk menjaga privasi.</p>
+    </div>
+    <div class="testi-grid">
+      <img src="img/testi1.webp" alt="Screenshot WhatsApp: pelajaran pertama dikerjakan waktu subuh, pakai timer 15 menit" width="374" height="782" loading="lazy">
+      <img src="img/testi2.webp" alt="Screenshot WhatsApp: caption dari Racik Prompt dipakai olshop gamis teman sekolah, lalu diminta bikin lagi minggu depan" width="374" height="782" loading="lazy">
+      <img src="img/testi3.webp" alt="Screenshot WhatsApp: Halaman Contoh Karya dikirim ke olshop yang belum dikenal" width="374" height="782" loading="lazy">
+      <img src="img/testi4.webp" alt="Screenshot WhatsApp: contoh pesan dari Bank Pesan dipakai untuk japri teman di grup arisan" width="374" height="782" loading="lazy">
+      <img src="img/testi5.webp" alt="Screenshot WhatsApp: anak yang membelikan app untuk mamanya, mamanya mencatat order di Buku Kas" width="374" height="782" loading="lazy">
+    </div>
+    <div class="testi-dots" id="testiDots" aria-hidden="true">
+      <button type="button" class="on" data-i="0" aria-label="Testimoni 1"></button>
+      <button type="button" data-i="1" aria-label="Testimoni 2"></button>
+      <button type="button" data-i="2" aria-label="Testimoni 3"></button>
+      <button type="button" data-i="3" aria-label="Testimoni 4"></button>
+      <button type="button" data-i="4" aria-label="Testimoni 5"></button>
+    </div>
+    <p class="narrow center testi-note">Hasil tiap orang berbeda dan tidak ada jaminan penghasilan.</p>
+  </div>
+</section>
+
+<!-- NILAI (NARATIF, TANPA HARGA) -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:24px;">
+      <h2>Berapa yang sudah keluar selama ini?</h2>
+    </div>
+    <div class="story">
+      <p>Coba ingat berapa kali kamu menahan diri karena harus minta dulu. Obat yang diganti merek murah. Kiriman buat Ibu yang ditunda. Baju yang nggak jadi dibeli. Itu bukan soal angkanya. Itu soal rasanya tiap kali harus menjelaskan.</p>
+      <p>Yang sudah mencoba belajar sendiri juga keluar sesuatu: waktu berjam-jam nonton video "cuan dari AI" yang ujungnya nggak tahu mulai dari mana. Webinar AI 3 jam di jam tertentu biasanya sekitar dua ratus ribuan, dan contohnya jarang soal olshop di sekitarmu.</p>
+      <p class="punch">AI Monetize sekali bayar, tanpa langganan, dan harganya di bawah satu kali webinar AI itu. Angkanya ada di halaman berikutnya.</p>
+    </div>
+
+    <div class="price-card">
+      <h3 class="center">Yang kamu dapat begitu masuk</h3>
+      <ul class="incl">
+        <li>Jalur 30 Hari: 30 pelajaran 15 menit dalam 4 tahap, lengkap dengan misi dan kuis</li>
+        <li>Timer 15 menit dan Peta Jalur</li>
+        <li>Racik Prompt: 7 tugas dan 11 prompt lanjutan</li>
+        <li>Cek &amp; Rapikan dan Mode Tanpa AI (40 kerangka)</li>
+        <li>Studio Promo: 12 resep layout untuk Canva</li>
+        <li>Portofolio dan Halaman Contoh Karya</li>
+        <li>Peta Klien dan Bank Pesan (18 pesan)</li>
+        <li>Kalkulator Harga dan kisaran pasar 2026</li>
+        <li>Buku Kas</li>
+        <li>4 bonus siap cetak</li>
+        <li>Kunci PIN, Mode Samaran, dan Pindah Progres</li>
+      </ul>
+      <div class="once-box">
+        <b>Sekali bayar, tanpa langganan.</b>
+        Semua fitur langsung terbuka, tanpa paket basic dan premium.
+      </div>
+      <div class="cta-block center">
+        <a class="btn" href="checkout.html">Mulai Pelajaran Pertama →</a>
+        <p class="btn-note">Panduan Akses berisi kode masuk dikirim ke email yang kamu pakai saat order.</p>
+      </div>
+    </div>
+
+    <div class="flow">
+      <h3>Dari bayar sampai pelajaran pertama, tiga langkah.</h3>
+      <ol>
+        <li><b>Selesaikan pembayaran</b>Bisa pakai QRIS, transfer bank, atau e-wallet.</li>
+        <li><b>Buka email, klik link biru</b>Klik link biru yang diawali drive.google.com, bukan tombol “Unduh Produk”. Kalau belum ada di kotak masuk, cek folder Spam atau Promosi.</li>
+        <li><b>Masukkan kode, lalu mulai Pelajaran 1</b>Buka aimon-kit.netlify.app, masukkan kode, kenalan sebentar, lalu mulai Pelajaran 1.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <div class="narrow">
+      <h2 class="center" style="margin-bottom:26px;">Pertanyaan yang sering masuk</h2>
+      <div class="faq-key">
+        <h3>Aku sudah bayar. Kodenya di mana?</h3>
+        <ol>
+          <li>Buka email pembelianmu.</li>
+          <li>Klik <b>link biru yang diawali drive.google.com</b>.</li>
+          <li>PDF Panduan Akses terbuka. Kodenya ada di dalamnya.</li>
+        </ol>
+      </div>
+
+      <div class="faq-key">
+        <h3>Aku sudah klik &quot;Unduh Produk&quot;, tapi nggak ada kodenya.</h3>
+        <p>Nggak apa-apa, kamu cuma salah klik. Balik ke email yang sama, lalu:</p>
+        <ol>
+          <li>Cari <b>link biru yang diawali drive.google.com</b>. Letaknya di atas tombol Unduh Produk.</li>
+          <li>Klik link itu, bukan tombolnya.</li>
+          <li>Kodenya ada di PDF Panduan Akses yang terbuka.</li>
+        </ol>
+      </div>
+
+      <div class="faq">
+        <details><summary>Kodenya ditolak.</summary><div class="ans">Pastikan kamu membuka aimon-kit.netlify.app, lalu ketik atau salin kode dari Panduan Akses apa adanya. Huruf besar kecil dan spasi yang ikut tersalin nggak masalah. Masih ditolak? Hubungi admin lewat kontak yang ada di email pembelianmu.</div></details>
+        <details><summary>Harganya berapa?</summary><div class="ans">Harganya tertera di halaman pembayaran setelah kamu klik tombol Mulai. Sekali bayar, tanpa biaya bulanan, dan semua fitur langsung terbuka.</div></details>
+        <details><summary>Ini app yang harus di-install?</summary><div class="ans">Nggak. AI Monetize dibuka lewat browser di HP atau laptop. Supaya cepat dibuka, simpan ke layar utama HP seperti app biasa.</div></details>
+        <details><summary>Perlu bikin akun atau password?</summary><div class="ans">Nggak. Cukup satu kode akses.</div></details>
+        <details><summary>Harus bayar ChatGPT atau Canva?</summary><div class="ans">Nggak. Versi gratis ChatGPT, Gemini, dan Canva cukup untuk latihan di app ini. Syarat dan batas versi gratis itu ditentukan penyedianya dan bisa berubah sewaktu-waktu.</div></details>
+        <details><summary>Aku gaptek banget, bisa?</summary><div class="ans">App ini dibuat untuk itu. Pelajaran 1 mulai dari membuka AI-nya di HP, kartunya pendek, dan tiap misi langsung membuka alat yang dibutuhkan.</div></details>
+        <details><summary>Apa app ini bikinin caption otomatis?</summary><div class="ans">Nggak. App ini meracik perintahnya, lalu kamu menempelnya ke ChatGPT atau Gemini gratis milikmu. Hasilnya kamu cek dan rapikan sendiri, karena itu yang nanti kamu tawarkan sebagai jasa.</div></details>
+        <details><summary>Ada yang bisa lihat isinya?</summary><div class="ans">Data tersimpan di HP kamu, bukan di server kami. Kamu bisa pasang kunci PIN, menyalakan Mode Samaran supaya tampilannya seperti catatan latihan biasa, dan memakai tombol Tutup Cepat.</div></details>
+        <details><summary>Kalau ganti HP, progresnya ikut?</summary><div class="ans">Bisa. Buka Pindah Progres di Pengaturan dan salin kodenya. Di HP baru, masukkan kode akses yang sama, lalu tempel kode Pindah Progres tadi. Foto karya yang kamu unggah tidak ikut pindah, jadi simpan dulu yang penting.</div></details>
+        <details><summary>Berapa lama sehari?</summary><div class="ans">Sekitar 15 menit untuk satu pelajaran. Boleh subuh, siang, atau malam, sesuai waktu yang kamu pilih di awal.</div></details>
+        <details><summary>Pasti dapat klien?</summary><div class="ans">Nggak ada jaminan. App ini menuntun kamu belajar, membuat contoh karya, dan menyiapkan cara menawarkan. Dapat klien atau tidak bergantung pada usaha dan pasar masing-masing.</div></details>
+        <details><summary>Kalau berhenti di tengah jalan?</summary><div class="ans">Nggak apa-apa. Progres nggak di-reset. Kamu lanjut dari pelajaran terakhir yang belum selesai.</div></details>
+        <details><summary>Setelah 30 pelajaran, terus gimana?</summary><div class="ans">Beranda berganti jadi Mode Kerja yang fokus ke klien dan order: calon klien, pengingat order ulang, dan ringkasan Buku Kas. Semua pelajaran masih bisa dibuka lagi di Peta Jalur.</div></details>
+        <details><summary>Ada biaya bulanan?</summary><div class="ans">Nggak ada. Sekali bayar.</div></details>
+        <details><summary>Kalau aku sedang mengalami kekerasan, termasuk uang ditahan atau dilarang bekerja?</summary><div class="ans">Kamu nggak sendirian. Hubungi layanan SAPA 129 dari Kementerian PPPA: telepon 129 atau WhatsApp 08111-129-129. Layanan ini bisa menerima laporan dan memberi pendampingan.</div></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="sec-deep">
+  <div class="wrap">
+    <div class="narrow center">
+      <h2>Malam ini cukup mulai dari satu pelajaran.</h2>
+      <p class="lead" style="margin-top:20px;">Kamu mungkin sudah nonton video cuan dari AI, sudah simpan banyak postingan, sudah bilang "nanti aja kalau anak udah gede". Satu hal yang belum: mulai dari pelajaran pertama, 15 menit, dari HP yang sama.</p>
+      <p class="closing-line">HP-mu sudah cukup. Yang kurang cuma urutannya.</p>
+      <div class="cta-block">
+        <a class="btn" href="checkout.html">Mulai Pelajaran Pertama →</a>
+        <p class="btn-note">Dibuka dari browser HP atau laptop. Tanpa install, tanpa akun.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <a class="logo" href="index.html">AI <em>Monetize</em></a>
+    <small>© 2026 AI Monetize. Semua hak dilindungi.</small>
+  </div>
+</footer>
+
+<div class="sticky-cta" id="stickyCta">
+  <div class="sp">
+    <b>Belajar AI 15 menit sehari</b>
+    <small>Buka dari HP, tanpa install</small>
+  </div>
+  <a class="btn" href="checkout.html">Mulai</a>
+</div>
+
+<div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="Tampilan app diperbesar">
+  <button type="button" class="lb-close" id="lbClose" aria-label="Tutup gambar">
+    <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5.5 5.5l9 9M14.5 5.5l-9 9" stroke="#1E2140" stroke-width="1.8" stroke-linecap="round"/></svg>
+  </button>
+  <div class="lb-inner"><img id="lbImg" alt=""></div>
+</div>
+
+<script>
+(function(){
+  var bar=document.getElementById('stickyCta');
+  var hero=document.querySelector('.hero');
+  if(!bar||!hero)return;
+  document.body.classList.add('has-sticky');
+  function check(){bar.classList.toggle('on',hero.getBoundingClientRect().bottom<0);}
+  check();
+  window.addEventListener('scroll',check,{passive:true});
+  window.addEventListener('resize',check);
+})();
+
+/* geser + titik untuk testimoni dan alat (HP) */
+function scroller(trackSel,itemSel,dotsId){
+  var track=document.querySelector(trackSel),dots=document.getElementById(dotsId);
+  if(!track||!dots)return;
+  var slides=track.querySelectorAll(itemSel),btns=dots.querySelectorAll('button');
+  function active(){
+    var mid=track.scrollLeft+track.clientWidth/2,best=0,min=Infinity;
+    for(var i=0;i<slides.length;i++){
+      var c=slides[i].offsetLeft+slides[i].offsetWidth/2,d=Math.abs(c-mid);
+      if(d<min){min=d;best=i;}
+    }
+    for(var j=0;j<btns.length;j++)btns[j].classList.toggle('on',j===best);
+  }
+  var t;
+  track.addEventListener('scroll',function(){clearTimeout(t);t=setTimeout(active,60);},{passive:true});
+  for(var k=0;k<btns.length;k++){
+    btns[k].addEventListener('click',function(){
+      var el=slides[Number(this.getAttribute('data-i'))];
+      if(!el)return;
+      track.scrollTo({left:el.offsetLeft-(track.clientWidth-el.offsetWidth)/2,behavior:'smooth'});
+    });
+  }
+  active();
+}
+scroller('.testi-grid','img','testiDots');
+scroller('#alatTrack','.alat-item','alatDots');
+
+/* tab alat (desktop) */
+(function(){
+  var tabs=document.querySelectorAll('.alat-tabs [role="tab"]');
+  function pick(tab){
+    for(var i=0;i<tabs.length;i++){
+      var on=tabs[i]===tab;
+      tabs[i].setAttribute('aria-selected',on?'true':'false');
+      tabs[i].setAttribute('tabindex',on?'0':'-1');
+      document.getElementById(tabs[i].getAttribute('aria-controls')).classList.toggle('on',on);
+    }
+  }
+  for(var i=0;i<tabs.length;i++){
+    tabs[i].addEventListener('click',function(){pick(this);});
+    tabs[i].addEventListener('keydown',function(e){
+      var idx=Array.prototype.indexOf.call(tabs,this),n=null;
+      if(e.key==='ArrowRight')n=tabs[(idx+1)%tabs.length];
+      if(e.key==='ArrowLeft')n=tabs[(idx-1+tabs.length)%tabs.length];
+      if(n){e.preventDefault();pick(n);n.focus();}
+    });
+  }
+})();
+
+/* lightbox: membuka versi gambar yang sedang tampil (HP atau desktop) */
+(function(){
+  var lb=document.getElementById('lightbox'),img=document.getElementById('lbImg'),close=document.getElementById('lbClose');
+  var last=null;
+  function open(src,alt){
+    img.src=src;img.alt=alt||'';
+    lb.classList.add('on');document.body.style.overflow='hidden';close.focus();
+  }
+  function shut(){lb.classList.remove('on');img.removeAttribute('src');document.body.style.overflow='';if(last)last.focus();}
+  var zs=document.querySelectorAll('[data-zoom]');
+  for(var i=0;i<zs.length;i++){
+    zs[i].setAttribute('tabindex','0');
+    zs[i].setAttribute('role','button');
+    zs[i].addEventListener('click',function(){last=this;open(this.currentSrc||this.src,this.alt);});
+    zs[i].addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();this.click();}});
+  }
+  close.addEventListener('click',shut);
+  lb.addEventListener('click',function(e){if(e.target===lb)shut();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('on'))shut();});
+})();
+</script>
+</body>
+</html>
