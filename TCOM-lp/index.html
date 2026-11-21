@@ -1,0 +1,845 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Communicator | Bukan Mentalmu yang Lemah, Kamu Cuma Belum Punya Kalimatnya</title>
+<meta name="description" content="App latihan kalimat saat ditekan untuk guru dan karyawan: pilih situasinya, dapat kalimat yang pas, latih ngucapinnya pakai suara 10 menit sehari. Tanpa install, tanpa akun.">
+<meta property="og:title" content="The Communicator | Bukan Mentalmu yang Lemah, Kamu Cuma Belum Punya Kalimatnya">
+<meta property="og:description" content="40 situasi tekanan, latihan suara 10 menit sehari, Kartu Saku untuk Hari H, dan tombol Aku lagi blank. Tanpa install, tanpa akun.">
+<meta name="theme-color" content="#6E1F35">
+<link rel="icon" type="image/png" sizes="64x64" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pri:#4E1525;
+  --pri-mid:#6E1F35;
+  --pri-soft:#F6E9ED;
+  --pri-deep:#3A1020;
+  --madu:#F2C46D;
+  --madu-soft:#FCF1DA;
+  --madu-text:#8A5A0B;
+  --bara:#B23A48;
+  --bara-soft:#FBE5E8;
+  --bg:#FBF6F2;
+  --pasir:#F4ECE7;
+  --card:#FFFFFF;
+  --line:#EADCD8;
+  --line-soft:#F3EAE6;
+  --ink:#241A1E;
+  --muted:#6A5A60;
+  --muted-light:#97878D;
+  --sans:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --radius:14px;
+  --radius-lg:20px;
+  --sinyal:#3FD6A4;
+  --sinyal-deep:#1F9E76;
+  --maxw:1120px;
+  --maxw-text:680px;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;overflow-x:hidden;}
+img{max-width:100%;height:auto;display:block;}
+a{color:inherit;}
+h1,h2,h3,h4{margin:0;line-height:1.2;letter-spacing:-0.02em;color:var(--pri);font-family:var(--sans);}
+h1{font-size:clamp(31px,5.8vw,50px);font-weight:800;letter-spacing:-0.03em;line-height:1.1;}
+h2{font-size:clamp(25px,4.2vw,36px);font-weight:800;}
+h3{font-size:clamp(20px,2.6vw,24px);font-weight:700;}
+h4{font-size:17px;font-weight:700;}
+p{margin:0 0 1rem;}
+p:last-child{margin-bottom:0;}
+strong{font-weight:700;color:var(--pri);}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px;}
+.narrow{max-width:var(--maxw-text);margin-left:auto;margin-right:auto;}
+section{padding:56px 0;}
+@media(min-width:768px){section{padding:76px 0;}}
+.sec-alt{background:var(--card);border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+.sec-deep{background:var(--pri-deep);color:#fff;}
+.sec-deep h2,.sec-deep h3{color:#fff;}
+.eyebrow{font-size:13.5px;font-weight:700;color:var(--pri-mid);margin:0 0 10px;}
+.eyebrow-bara{color:var(--bara);}
+.eyebrow-madu{color:var(--madu-text);}
+.lead{font-size:clamp(17px,2vw,19px);color:var(--muted);}
+.sec-deep .lead{color:#EBD3DA;}
+.center{text-align:center;}
+
+/* header */
+.site-head{background:var(--card);border-bottom:1px solid var(--line);padding:14px 0;position:relative;z-index:5;}
+.logo{display:inline-block;font-family:var(--sans);font-size:20px;font-weight:800;letter-spacing:-0.02em;color:var(--ink);text-decoration:none;line-height:1.2;}
+.logo em{font-style:normal;color:var(--pri-mid);}
+
+/* buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  background:var(--sinyal);color:#10231C;text-decoration:none;
+  font-weight:800;font-size:17px;letter-spacing:-0.01em;
+  padding:17px 28px;border-radius:12px;border:none;cursor:pointer;
+  box-shadow:0 3px 0 var(--sinyal-deep);
+  transition:transform .12s ease,box-shadow .12s ease,background .12s ease;
+  text-align:center;width:100%;
+}
+@media(min-width:560px){.btn{width:auto;font-size:18px;padding:18px 34px;}}
+.btn:hover{background:#35C796;transform:translateY(-1px);box-shadow:0 4px 0 var(--sinyal-deep);}
+.btn:active{transform:translateY(2px);box-shadow:0 1px 0 var(--sinyal-deep);}
+.btn:focus-visible{outline:3px solid var(--pri-mid);outline-offset:3px;}
+.sec-deep .btn{background:var(--sinyal);color:#10231C;box-shadow:0 3px 0 #1A0810;}
+.sec-deep .btn:hover{background:#35C796;}
+.btn-note{font-size:14.5px;color:var(--muted);margin-top:12px;}
+.sec-deep .btn-note{color:#D9B5C0;}
+.cta-block{margin-top:26px;}
+
+/* hero */
+.hero{background:var(--card);padding:28px 0 44px;border-bottom:1px solid var(--line);}
+.hero-grid{display:block;}
+.hero-img{margin:22px -20px 24px;}
+@media(min-width:900px){
+  .hero{padding:64px 0 72px;}
+  .hero-grid{display:grid;grid-template-columns:1fr 460px;grid-template-areas:"hd img" "rest img";column-gap:56px;align-items:center;}
+  .hero-hd{grid-area:hd;align-self:end;}
+  .hero-rest{grid-area:rest;align-self:start;padding-top:18px;}
+  .hero-img{grid-area:img;margin:0;align-self:center;}
+  .hero-img img{border-radius:var(--radius-lg);}
+}
+.hero-bullets{list-style:none;padding:0;margin:22px 0 0;}
+.hero-bullets li{position:relative;padding-left:30px;margin-bottom:12px;font-size:16.5px;color:var(--ink);}
+.hero-bullets li::before{content:"";position:absolute;left:0;top:8px;width:16px;height:16px;border-radius:50%;background:var(--pri-soft);border:2px solid var(--pri-mid);}
+.hero-bullets b{color:var(--pri);}
+.hero-facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin-top:20px;font-size:14.5px;color:var(--muted);font-weight:600;}
+.hero-facts span{white-space:nowrap;}
+
+/* cards */
+.grid{display:grid;gap:18px;}
+@media(min-width:760px){.grid-3{grid-template-columns:repeat(3,1fr);}}
+@media(min-width:640px){.grid-2{grid-template-columns:repeat(2,1fr);}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;}
+.sec-alt .card{background:var(--bg);}
+.card-quote{font-size:20px;font-weight:800;color:var(--bara);margin:0 0 10px;line-height:1.3;letter-spacing:-0.01em;}
+.card p{font-size:16px;color:var(--muted);}
+.card h3{margin-bottom:10px;}
+
+.pilar{border-left:4px solid var(--pri-mid);padding:4px 0 4px 18px;margin-bottom:20px;}
+.pilar.p-ortu{border-color:var(--madu);}
+.pilar.p-darurat{border-color:var(--bara);}
+.pilar h4{margin-bottom:4px;color:var(--pri);}
+.pilar p{font-size:16px;color:var(--muted);margin:0;}
+.pilar p b{color:var(--pri);}
+.golden{margin-top:28px;font-size:25px;font-weight:800;color:var(--pri);margin-bottom:6px;line-height:1.3;letter-spacing:-0.02em;}
+
+/* steps */
+.step{display:grid;gap:20px;padding:28px 0;border-top:1px solid var(--line);}
+.narrow + .step{border-top:none;}
+@media(min-width:1024px){
+  .step.dimg{grid-template-columns:1fr 1.45fr;gap:48px;align-items:center;}
+  .step-img{order:2;}
+}
+.step-num{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:var(--pri-mid);color:#fff;font-weight:800;font-size:16px;margin-bottom:12px;}
+.step-copy p{color:var(--muted);margin-top:10px;}
+.step-wide{display:block;}
+.step-wide .step-copy{max-width:var(--maxw-text);}
+
+/* screenshot frames */
+.shot{border:1px solid var(--line);border-radius:14px;background:var(--card);box-shadow:0 1px 3px rgba(36,26,30,.08);}
+.shot-r{max-width:300px;width:100%;margin-left:auto;margin-right:auto;}
+@media(min-width:1024px){.shot-r{max-width:100%;}}
+[data-zoom]{cursor:zoom-in;}
+.m-only{display:inline;}
+@media(min-width:700px){.m-only{display:none;}}
+figure{margin:0;}
+figcaption{font-size:13.5px;color:var(--muted);margin-top:8px;text-align:center;}
+
+/* feature rows */
+.feat{display:grid;gap:24px;padding:40px 0;border-top:1px solid var(--line);}
+@media(min-width:1024px){
+  .feat.dimg{grid-template-columns:1fr 1.45fr;gap:48px;align-items:center;}
+  .feat.dimg.flip{grid-template-columns:1.45fr 1fr;}
+  .feat-img{order:2;}
+  .feat.flip .feat-img{order:1;}
+  .feat.flip .feat-copy{order:2;}
+}
+.feat-copy h3{margin-bottom:12px;}
+.feat-copy p{color:var(--muted);font-size:16.5px;}
+.feat-pair{padding-top:40px;border-top:1px solid var(--line);}
+
+/* alat */
+.alat-tabs{display:none;}
+.alat-track{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:4px 20px 6px;margin:0 -20px;}
+.alat-track::-webkit-scrollbar{display:none;}
+.alat-item{flex:0 0 80%;scroll-snap-align:center;}
+.alat-item h3{font-size:19px;margin:16px 0 6px;}
+.alat-item p{font-size:15.5px;color:var(--muted);margin:0;}
+.alat-dots{display:flex;justify-content:center;gap:8px;margin-top:18px;}
+.alat-dots button,.testi-dots button{width:8px;height:8px;padding:0;border:none;border-radius:50%;background:var(--line);cursor:pointer;transition:background .2s ease,width .2s ease;}
+.alat-dots button.on,.testi-dots button.on{background:var(--pri-mid);width:22px;border-radius:5px;}
+.alat-dots button:focus-visible,.testi-dots button:focus-visible{outline:2px solid var(--pri-mid);outline-offset:3px;}
+@media(min-width:1024px){
+  .alat-tabs{display:flex;justify-content:center;gap:8px;margin-bottom:26px;flex-wrap:wrap;}
+  .alat-tabs button{font:inherit;font-size:15.5px;font-weight:700;color:var(--pri);background:var(--card);border:1.5px solid var(--line);border-radius:999px;padding:10px 20px;cursor:pointer;}
+  .alat-tabs button[aria-selected="true"]{background:var(--pri-mid);border-color:var(--pri-mid);color:#fff;}
+  .alat-tabs button:focus-visible{outline:3px solid var(--madu);outline-offset:2px;}
+  .alat-track{display:block;overflow:visible;padding:0;margin:0;}
+  .alat-item{display:none;}
+  .alat-item.on{display:grid;grid-template-columns:1.6fr 1fr;gap:40px;align-items:center;}
+  .alat-item h3{font-size:24px;margin:0 0 10px;}
+  .alat-item p{font-size:16.5px;}
+  .alat-dots{display:none;}
+}
+.also{max-width:var(--maxw-text);margin:34px auto 0;text-align:center;font-size:16px;color:var(--muted);}
+
+/* jelas */
+.clear-card p{color:var(--muted);font-size:16.5px;}
+.clear-yes{border-top:4px solid var(--pri-mid);}
+.clear-no{border-top:4px solid var(--madu);}
+
+.fitlist{list-style:none;padding:0;margin:0;}
+.fitlist li{position:relative;padding-left:30px;margin-bottom:13px;font-size:16.5px;}
+.fitlist li::before{position:absolute;left:0;top:0;font-weight:800;font-size:17px;}
+.fit-yes li::before{content:"✓";color:var(--pri-mid);}
+.fit-no li::before{content:"✕";color:var(--bara);}
+
+/* table */
+.tbl-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;max-width:100%;border:1px solid var(--line);border-radius:var(--radius);}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:15.5px;background:var(--card);}
+th,td{padding:14px 16px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;}
+tbody tr:last-child th,tbody tr:last-child td{border-bottom:none;}
+thead th{font-size:13.5px;font-weight:700;color:var(--muted);border-bottom:2px solid var(--line);}
+thead th.hl{color:var(--pri);}
+tbody td.hl{font-weight:700;color:var(--pri);background:var(--pri-soft);}
+tbody th{font-weight:600;color:var(--ink);width:19%;}
+
+/* testimoni */
+.testi-grid{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:4px 20px 6px;margin:0 -20px;}
+.testi-grid::-webkit-scrollbar{display:none;}
+.testi-grid img{flex:0 0 78%;scroll-snap-align:center;width:100%;height:auto;border:1px solid var(--line);border-radius:16px;background:var(--card);box-shadow:0 1px 3px rgba(36,26,30,.08);}
+.testi-dots{display:flex;justify-content:center;gap:8px;margin-top:16px;}
+@media(min-width:700px){
+  .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;overflow:visible;padding:0;margin:0;}
+  .testi-grid img{flex:none;}
+  .testi-dots{display:none;}
+}
+
+/* nilai (naratif) */
+.story{max-width:var(--maxw-text);margin:0 auto 34px;}
+.story p{font-size:clamp(17px,2vw,18.5px);color:var(--muted);}
+.story p.punch{font-size:clamp(19px,2.4vw,22px);font-weight:700;color:var(--pri);line-height:1.45;margin-top:22px;}
+.price-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius-lg);padding:26px 22px;max-width:620px;margin:0 auto;}
+.sec-alt .price-card{background:var(--bg);}
+@media(min-width:640px){.price-card{padding:36px;}}
+.incl{list-style:none;padding:0;margin:18px 0 0;}
+.incl li{position:relative;padding:10px 0 10px 30px;border-bottom:1px solid var(--line-soft);font-size:16px;}
+.incl li:last-child{border-bottom:none;}
+.incl li::before{content:"✓";position:absolute;left:0;top:10px;font-weight:800;color:var(--pri-mid);}
+.once-box{text-align:center;background:var(--madu-soft);border-radius:var(--radius);padding:18px 20px;margin:24px 0 0;font-size:16.5px;color:var(--ink);}
+.once-box b{display:block;font-size:19px;color:var(--pri);margin-bottom:2px;}
+
+.flow{max-width:620px;margin:40px auto 0;}
+.flow h3{text-align:center;margin-bottom:18px;font-size:clamp(19px,2.4vw,22px);}
+.flow ol{list-style:none;padding:0;margin:0;counter-reset:f;}
+.flow li{counter-increment:f;position:relative;padding:0 0 18px 48px;font-size:16px;color:var(--muted);}
+.flow li:last-child{padding-bottom:0;}
+.flow li::before{content:counter(f);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--pri-soft);color:var(--pri);font-weight:800;display:flex;align-items:center;justify-content:center;font-size:15px;}
+.flow li b{display:block;color:var(--pri);font-size:16.5px;}
+
+/* faq */
+.faq-key{background:var(--card);border:3px solid var(--madu);border-radius:var(--radius);padding:22px;margin-bottom:16px;}
+.faq-key h3{font-size:clamp(20px,3.2vw,23px);margin-bottom:12px;}
+.faq-key p{font-size:17.5px;color:var(--muted);margin:0 0 10px;}
+.faq-key ol{margin:0;padding:0 0 0 24px;font-size:clamp(17.5px,2.6vw,19px);line-height:1.5;}
+.faq-key li{margin-bottom:10px;padding-left:4px;}
+.faq-key li:last-child{margin-bottom:0;}
+.faq-key li::marker{font-weight:800;color:var(--madu-text);}
+.faq-key b{color:var(--pri);}
+.faq{border-top:1px solid var(--line);margin-top:30px;}
+.faq details{border-bottom:1px solid var(--line);}
+.faq summary{cursor:pointer;padding:18px 34px 18px 0;position:relative;font-weight:700;font-size:16.5px;color:var(--pri);list-style:none;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::after{content:"";position:absolute;right:6px;top:26px;width:9px;height:9px;border-right:2.5px solid var(--pri-mid);border-bottom:2.5px solid var(--pri-mid);transform:rotate(45deg);transition:transform .18s ease;}
+.faq details[open] summary::after{transform:rotate(-135deg);top:28px;}
+.faq summary:focus-visible{outline:2px solid var(--pri-mid);outline-offset:2px;}
+.faq .ans{padding:0 0 20px;color:var(--muted);font-size:16.5px;}
+
+.closing-line{font-size:25px;font-weight:800;color:#fff;margin-top:24px;line-height:1.3;letter-spacing:-0.02em;}
+
+/* sticky bar */
+.sticky-cta{position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--card);border-top:1px solid var(--line);padding:10px 16px;box-shadow:0 -3px 14px rgba(36,26,30,.12);display:flex;align-items:center;gap:12px;transform:translateY(110%);transition:transform .25s ease;}
+.sticky-cta.on{transform:translateY(0);}
+.sticky-cta .sp{flex:1;min-width:0;}
+.sticky-cta .sp b{display:block;font-size:16.5px;color:var(--pri);line-height:1.2;}
+.sticky-cta .sp small{font-size:12.5px;color:var(--muted);}
+.sticky-cta .btn{width:auto;padding:14px 22px;font-size:15.5px;flex-shrink:0;}
+@media(min-width:900px){.sticky-cta{display:none;}}
+body.has-sticky{padding-bottom:82px;}
+@media(min-width:900px){body.has-sticky{padding-bottom:0;}}
+
+/* footer */
+.site-foot{background:var(--card);border-top:1px solid var(--line);padding:30px 0;text-align:center;}
+.site-foot .logo{display:block;margin-bottom:6px;}
+.site-foot small{font-size:13.5px;color:var(--muted-light);}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(28,10,18,.92);display:none;align-items:center;justify-content:center;padding:56px 12px 20px;}
+.lb.on{display:flex;}
+.lb-inner{max-width:1400px;width:100%;max-height:100%;overflow:auto;-webkit-overflow-scrolling:touch;border-radius:10px;}
+.lb img{width:auto;max-width:100%;max-height:86vh;margin:0 auto;border-radius:10px;}
+.lb-close{position:absolute;top:12px;right:12px;width:40px;height:40px;border-radius:50%;background:#fff;border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;}
+.lb-close:focus-visible{outline:3px solid var(--madu);outline-offset:2px;}
+.lb-close svg{width:18px;height:18px;}
+
+@media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
+.pilar.pl-1{border-color:#1F9E76;}
+.pilar.pl-2{border-color:#6E1F35;}
+.pilar.pl-3{border-color:#C9952E;}
+.eyebrow-a{color:#6E1F35;}
+.eyebrow-b{color:#1F9E76;}
+.eyebrow-c{color:#8A5A0B;}
+.card-quote{color:var(--pri-mid);}
+.testi-note{font-size:14px;color:var(--muted);margin-top:18px;}
+@media(min-width:700px){
+  .testi-grid{grid-template-columns:repeat(6,1fr);}
+  .testi-grid img{grid-column:span 2;}
+  .testi-grid img:nth-child(4){grid-column:2 / span 2;}
+}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="logo" href="index.html" aria-label="The Communicator, halaman utama">The <em>Communicator</em></a>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-hd">
+        <h1>Bukan mentalmu yang lemah. Kamu cuma belum punya kalimatnya.</h1>
+      </div>
+      <div class="hero-img">
+        <img src="img/hero-mockup.webp" alt="The Communicator: Sering blank saat ditekan? Latih cara menjawab dengan tenang dan tegas, 10 menit sehari, dengan Latihan Situasi, Kartu Saku, dan Aku lagi blank" width="1122" height="1402" fetchpriority="high">
+      </div>
+      <div class="hero-rest">
+        <p class="lead">The Communicator adalah app latihan kalimat saat ditekan. Pilih situasinya: dibentak wali murid, dipotong di rapat, dilempar kerjaan Jumat sore, dimintai pinjaman. Kamu dapat kalimat yang pas, lalu latih ngucapinnya pakai suara 10 menit sehari, sampai kalimat itu yang keluar duluan, bukan maafnya.</p>
+        <ul class="hero-bullets">
+          <li><b>"Udah tahu teorinya, tetap blank."</b> Di sini nggak ada teori. Kamu jawab langsung, app negur kalau maaf atau "ya udah lah" keluar duluan, lalu kamu ulangi kalimat yang benar.</li>
+          <li><b>"Nggak ada waktu ikut kelas."</b> Tiga situasi, sekitar 10 menit. Bisa di KRL pakai earphone, atau berdiri di depan cermin.</li>
+          <li><b>"Pas kejadian pasti lupa lagi."</b> Ada Kartu Saku untuk dibuka sebelum masuk ruangan, dan tombol Aku lagi blank kalau otakmu kosong di tengah jalan.</li>
+        </ul>
+        <div class="cta-block">
+          <a class="btn" href="checkout.html">Mulai Cek Refleks 2 Menit →</a>
+          <p class="btn-note">Dibuka dari browser HP atau laptop. Tanpa install, tanpa akun.</p>
+        </div>
+        <div class="hero-facts">
+          <span>10 menit sehari</span>
+          <span>40 situasi siap latih</span>
+          <span>Cek Refleks 2 menit</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ADEGAN -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:34px;">
+      <h2>Baca tiga ini. Kalau ada satu yang kejadian minggu ini, kamu di tempat yang benar.</h2>
+    </div>
+    <div class="grid grid-3">
+      <div class="card">
+        <p class="card-quote">“Maaf, Bu...”</p>
+        <p>Padahal kamu nggak salah. Orang tua murid bicara dengan nada tinggi di depan guru lain, dan kata pertama yang keluar dari mulutmu adalah maaf.</p>
+      </div>
+      <div class="card">
+        <p class="card-quote">“Iya, boleh.”</p>
+        <p>Map ditaruh di mejamu Jumat sore. Kamu jawab iya sebelum sempat mikir, lalu pulang jam sembilan malam ngerjain kerjaan orang.</p>
+      </div>
+      <div class="card">
+        <p class="card-quote">“Enam tahun di sini, masih aja begini?”</p>
+        <p>Kamu sebenarnya tahu jawabannya. Tapi di ruang rapat otakmu kosong, dan kalimatnya baru ketemu di jalan pulang.</p>
+      </div>
+    </div>
+    <p class="narrow lead center" style="margin-top:30px;">Tiga adegan ini kelihatan beda. Akarnya sama, dan bukan karena kamu kurang pintar atau kurang berani.</p>
+  </div>
+</section>
+
+<!-- MEKANISME -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow">
+      <h2>Bukan mentalmu. Refleksnya keluar duluan.</h2>
+      <p style="margin-top:18px;">Saat nada lawan bicara naik, otak memilih jalan tercepat yang sudah biasa dilewati: minta maaf, langsung iya, diam, atau mundur pelan-pelan. Teori dan daftar kalimat dari internet nggak menolong di detik itu, karena belum pernah kamu ucapkan. Yang keluar tetap yang paling sering dilatih.</p>
+      <p>The Communicator memakai <b>Metode Kalimat Pegangan</b>:</p>
+
+      <div style="margin-top:26px;">
+        <div class="pilar pl-1"><h4>Tahan</h4><p>Kenali refleks lamamu. App menegur saat maaf, "iya", diam, atau kata mundur keluar duluan.</p></div>
+        <div class="pilar pl-2"><h4>Ganti</h4><p>Setiap situasi punya kalimat pegangan versi halus dan tegas, ditulis manusia dalam bahasa ruang guru dan pantry kantor.</p></div>
+        <div class="pilar pl-3"><h4>Ucapkan</h4><p>Ucapkan berulang dengan suara, termasuk saat lawan bicara mendesak lagi, sampai keluar sendiri.</p></div>
+      </div>
+
+      <p style="margin-top:26px;">Cek Refleks 2 Menit menunjukkan <b>refleks yang paling sering keluar</b> darimu dan <b>orang yang paling sering bikin kamu ciut</b>. Dari situ app memilih situasi pertama yang kamu latih.</p>
+
+      <p class="golden">Targetnya bukan nggak pernah gugup lagi. Targetnya kalimat yang tetap keluar walau tanganmu masih gemetar.</p>
+      <p style="color:var(--muted);">Aturan yang dijaga app: situasi yang refleksnya masih keluar dimunculkan lagi besok, dan baru dianggap lancar setelah dua kali bersih di hari berbeda.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CARA KERJA -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:10px;">
+      <h2>Nggak perlu ikut kelas dulu. App-nya yang nuntun.</h2>
+    </div>
+
+    <div class="step step-wide">
+      <div class="step-copy">
+        <div class="step-num">1</div>
+        <h3>Masukkan kode akses</h3>
+        <p>Kodenya ada di Panduan Akses di emailmu. Cukup sekali, setelah itu tersimpan.</p>
+      </div>
+    </div>
+
+    <div class="step dimg">
+      <div class="step-copy">
+        <div class="step-num">2</div>
+        <h3>Cek Refleks 2 Menit</h3>
+        <p>Delapan pertanyaan pilihan tentang yang paling sering terjadi, bukan yang seharusnya. Hasilnya refleks utamamu dan 3 situasi yang paling cocok kamu latih. Kalau rasa takut bicaranya sudah sampai mengganggu tidur, app akan bilang terus terang dan menyarankan bicara dengan profesional.</p>
+      </div>
+      <div class="step-img">
+        <picture><source media="(min-width:1024px)" srcset="img/hasil-cek-d.webp" width="1400" height="868"><img class="shot shot-r" data-zoom src="img/hasil-cek.webp" alt="Layar hasil Cek Refleks: refleks yang paling sering keluar Maaf duluan, penjelasannya, dan latihan mengganti maaf di awal dengan kalimat yang mengakui perasaan orang" width="728" height="1568" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="step step-wide">
+      <div class="step-copy">
+        <div class="step-num">3</div>
+        <h3>Latihan pertama</h3>
+        <p>Pilih Suara, Ketik, Cermin, atau Earphone, lalu jawab situasi pertama. Sekitar 10 menit.</p>
+      </div>
+    </div>
+
+    <div class="cta-block narrow center" style="margin-top:34px;">
+      <a class="btn" href="checkout.html">Mulai Cek Refleks 2 Menit →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FITUR -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center">
+      <h2>Yang kamu pakai tiap hari</h2>
+    </div>
+
+    <div class="feat dimg" style="border-top:none;">
+      <div class="feat-copy">
+        <p class="eyebrow eyebrow-a">Latihan 10 menit</p>
+        <h3>Kamu jawab, app langsung negur.</h3>
+        <p style="margin-top:12px;">Kalimat lawan bicara tampil besar dan dibacakan. Kamu jawab spontan lewat mic. Kalau yang keluar "maaf" duluan, app bilang <b>Jangan minta maaf dulu.</b> Kalau "ya udah lah", <b>Jangan mundur.</b> Lalu kalimat pegangan muncul, dan kamu ulangi sampai kata pentingnya keluar.</p>
+        <p>Setelah itu <b>Ronde Desakan</b>: orangnya belum selesai dan mendesak sekali lagi, persis seperti aslinya. Di tempat ramai, pakai Ketik atau Earphone.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/teguran-d.webp" width="1400" height="868"><img class="shot shot-r" data-zoom src="img/teguran.webp" alt="Layar latihan Hari 4 Idemu diambil orang: rekan presentasi ide paket bundling, app menegur Jangan mundur, lalu menampilkan kalimat pegangan untuk diulang" width="728" height="1568" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="feat dimg flip">
+      <div class="feat-copy">
+        <p class="eyebrow eyebrow-b">40 situasi</p>
+        <h3>Sekolah, kantor, uang, usaha, sehari-hari.</h3>
+        <p style="margin-top:12px;">Cari kata seperti piket, lembur, pinjam, atau dipotong. Setiap kartu berisi refleks yang biasa keluar, kalimat pegangan versi halus dan tegas, kalimat kalau dia ngotot, dan alasan kenapa kalimat itu bekerja.</p>
+        <p>Ada juga kategori <b>Kalau memang salah</b>: cara mengakui salah tanpa merendahkan diri.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/kartu-situasi-d.webp" width="1400" height="868"><img class="shot shot-r" data-zoom src="img/kartu-situasi.webp" alt="Kartu situasi Rekan mempresentasikan idemu sebagai idenya: yang biasa keluar Ya udah lah, kalimat pegangan versi halus, dan kalimat kalau dia ngotot" width="728" height="1568" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="feat dimg">
+      <div class="feat-copy">
+        <p class="eyebrow eyebrow-c">Hari H dan Kartu Saku</p>
+        <h3>Rapat Kamis? Buka Kartu Saku lima menit sebelum masuk.</h3>
+        <p style="margin-top:12px;">Catat momennya, siapa yang bakal ada, dan 2 sampai 3 situasi yang mungkin muncul. Sampai hari itu, latihanmu mengutamakan situasi tersebut.</p>
+        <p>Di hari H, Kartu Saku menampilkan 3 sampai 5 kalimat utama dalam huruf besar. Setelahnya, app bertanya kalimat mana yang berhasil keluar.</p>
+      </div>
+      <div class="feat-img">
+        <picture><source media="(min-width:1024px)" srcset="img/kartu-saku-d.webp" width="1400" height="868"><img class="shot shot-r" data-zoom src="img/kartu-saku.webp" alt="Kartu Saku Penilaian promosi sama Pak Darius: Tarik napas pelan dulu, kalimatnya udah ada, dengan kalimat pegangan bernomor dalam huruf besar" width="728" height="1568" loading="lazy"></picture>
+      </div>
+    </div>
+
+    <div class="feat-pair">
+      <div class="grid grid-2">
+        <div class="card">
+          <h3>Suaramu nggak direkam.</h3>
+          <p>App tidak merekam dan tidak menyimpan suara. Nama, jawaban latihan, dan catatan tersimpan di HP-mu saja. Di Chrome, browser mengirim suara ke Google untuk diubah jadi teks, jadi perlu internet.</p>
+        </div>
+        <div class="card">
+          <h3>Satu kode di HP, tablet, atau laptop.</h3>
+          <p>Dibuka dari browser. Ganti HP? Progres bisa dipindah dengan kode Pindah Progres.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALAT -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:30px;">
+      <h2>Dan alat untuk momen yang paling bikin panik.</h2>
+      <p class="lead" style="margin-top:12px;">Semuanya bisa dibuka kapan saja dari menu app.<span class="m-only"> Geser untuk melihat yang lain.</span></p>
+    </div>
+
+    <div class="alat-tabs" role="tablist" aria-label="Pilih alat">
+      <button type="button" role="tab" id="tab-blank" aria-controls="alat-blank" aria-selected="true">Aku lagi blank</button>
+      <button type="button" role="tab" id="tab-menang" aria-controls="alat-menang" aria-selected="false" tabindex="-1">Catatan Menang</button>
+      <button type="button" role="tab" id="tab-bonus" aria-controls="alat-bonus" aria-selected="false" tabindex="-1">4 bonus cetak</button>
+    </div>
+
+    <div class="alat-track" id="alatTrack">
+      <div class="alat-item on" id="alat-blank" role="tabpanel" aria-labelledby="tab-blank">
+        <picture><source media="(min-width:1024px)" srcset="img/blank-d.webp" width="1400" height="868"><img class="shot" data-zoom src="img/blank.webp" alt="Layar Aku lagi blank: Tarik napas, pakai salah satu ini, dengan kalimat besar Boleh saya selesaiin dulu?" width="728" height="1568" loading="lazy"></picture>
+        <div>
+          <h3>Aku lagi blank</h3>
+          <p>Tombol hijau yang selalu ada di layar. Isinya kalimat pembeli waktu seperti "Boleh saya selesaiin dulu?", lalu kalimat dari Kalimatku dan Kartu Saku. Nggak mencatat apa pun, nggak nyalain mic. Aman dibuka diam-diam di bawah meja.</p>
+        </div>
+      </div>
+      <div class="alat-item" id="alat-menang" role="tabpanel" aria-labelledby="tab-menang">
+        <picture><source media="(min-width:1024px)" srcset="img/menang-d.webp" width="1400" height="868"><img class="shot" data-zoom src="img/menang.webp" alt="Layar Catatan Menang: 3 menang kecil, tombol Catat menang, dan catatan kalimat yang keluar lancar di rapat" width="728" height="1568" loading="lazy"></picture>
+        <div>
+          <h3>Catatan Menang</h3>
+          <p>Tiap kali kalimatnya keluar di dunia nyata, catat: sama siapa, kalimatnya apa, keluarnya lancar atau setengah. Riwayat menunjukkan refleks mana yang makin jarang muncul. Jadi kamu tahu dari catatan, bukan dari perasaan.</p>
+        </div>
+      </div>
+      <div class="alat-item" id="alat-bonus" role="tabpanel" aria-labelledby="tab-bonus">
+        <picture><source media="(min-width:1024px)" srcset="img/bonus-pinjam-d.webp" width="1400" height="868"><img class="shot" data-zoom src="img/bonus-pinjam.webp" alt="Bonus cetak Naskah Menolak Pinjam Uang: kalimat lisan dan versi chat untuk teman dekat, saudara, dan rekan kerja" width="728" height="1568" loading="lazy"></picture>
+        <div>
+          <h3>4 bonus cetak</h3>
+          <p>Kartu Saku 12 Kalimat Pegangan (ada wallpaper HP), Kamus Ganti "Maaf", Naskah Menolak Pinjam Uang (versi lisan dan chat), dan Template Balas Pesan yang Bikin Panas. Bisa dicetak atau disimpan jadi PDF.</p>
+        </div>
+      </div>
+    </div>
+    <div class="alat-dots" id="alatDots" aria-hidden="true">
+      <button type="button" class="on" data-i="0" aria-label="Alat 1"></button>
+      <button type="button" data-i="1" aria-label="Alat 2"></button>
+      <button type="button" data-i="2" aria-label="Alat 3"></button>
+    </div>
+
+    <p class="also">Juga ada Jalur Dasar 7 Pola Tekanan, Kalimatku untuk mengganti nama orang dan kata-katanya, versi halus dan tegas, 4 mode latihan, Riwayat 30 hari, dan Pindah Progres untuk ganti HP.</p>
+  </div>
+</section>
+
+<!-- SUPAYA JELAS -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Supaya jelas dari awal</h2>
+    </div>
+    <div class="grid grid-2">
+      <div class="card clear-card clear-yes">
+        <h3>The Communicator bisa</h3>
+        <p>menjadi tempat latihan kalimat untuk situasi tekanan sehari-hari, 10 menit sehari dengan langkah yang jelas, pegangan cepat sebelum dan saat momen penting, dan catatan yang bisa kamu lihat sendiri.</p>
+      </div>
+      <div class="card clear-card clear-no">
+        <h3>The Communicator bukan</h3>
+        <p>terapi kecemasan, fobia, atau trauma, dan <b>bukan pengganti psikolog.</b> Kalimat di dalamnya juga bukan nasihat hukum. App mengecek jawaban pakai aturan sederhana, bukan pelatih yang mengerti semua omonganmu, dan tidak menilai nada atau ekspresi. Tidak menjanjikan naik jabatan atau lawan bicara pasti berubah. Kalau rasa takutnya sampai bikin panik atau susah tidur berhari-hari, app menyarankan bicara dengan profesional. Cerita di iklan adalah drama fiksi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- UNTUK SIAPA -->
+<section>
+  <div class="wrap">
+    <div class="grid grid-2">
+      <div class="card">
+        <h3 style="margin-bottom:16px;">Cocok kalau</h3>
+        <ul class="fitlist fit-yes">
+          <li>Kamu guru atau karyawan yang kerjanya beres, tapi sering minta maaf padahal nggak salah.</li>
+          <li>Kamu susah bilang nggak, lalu lembur atau keluar uang karena nggak enakan.</li>
+          <li>Kalimatnya baru ketemu setelah kejadian, di jalan pulang.</li>
+          <li>Ada momen penting yang sudah kelihatan: rapat, penilaian, ketemu wali murid.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:16px;">Bukan untuk kamu kalau</h3>
+        <ul class="fitlist fit-no">
+          <li>Kamu mencari teori komunikasi atau public speaking di panggung.</li>
+          <li>Kamu butuh terapi untuk rasa takut yang berat.</li>
+          <li>Kamu nggak bisa meluangkan 10 menit sehari.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PERBANDINGAN -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Kenapa app ini, bukan cara yang biasa dicoba.</h2>
+    </div>
+    <div class="tbl-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Buku atau seminar komunikasi</th>
+            <th>Daftar kalimat di TikTok dan IG</th>
+            <th>Kelas public speaking online</th>
+            <th class="hl">The Communicator</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><th>Saat ditekan</th><td>Teorinya hilang</td><td>Lupa kalimatnya</td><td>Bahasnya panggung</td><td class="hl">Kalimat pegangan per situasi</td></tr>
+          <tr><th>Dilatih diucapkan</th><td>Tidak</td><td>Tidak</td><td>Sesekali</td><td class="hl">Ya, pakai suara, tiap hari</td></tr>
+          <tr><th>Saat lawan mendesak</th><td>Tidak dibahas</td><td>Tidak</td><td>Jarang</td><td class="hl">Ronde Desakan</td></tr>
+          <tr><th>Sebelum momen penting</th><td>Baca ulang</td><td>Cari lagi</td><td>Tidak</td><td class="hl">Hari H dan Kartu Saku</td></tr>
+          <tr><th>Biaya</th><td>Rp59 ribu sampai jutaan</td><td>Gratis, tapi nggak nempel</td><td>Rp99 ribu sampai Rp149 ribu</td><td class="hl">Sekali bayar, tanpa langganan</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONI -->
+<section>
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:28px;">
+      <h2>Cerita dari yang sudah pakai.</h2>
+      <p class="lead" style="margin-top:12px;"><span class="m-only">Geser untuk melihat cerita lainnya. </span>Nomor disensor untuk menjaga privasi.</p>
+    </div>
+    <div class="testi-grid">
+      <img src="img/testi1.webp" alt="Screenshot WhatsApp: guru yang awalnya selalu jawab maaf ke wali murid, latihan mode Cermin dan ditegur Jangan minta maaf dulu" width="748" height="1564" loading="lazy">
+      <img src="img/testi2.webp" alt="Screenshot WhatsApp: karyawan latihan pakai earphone di KRL, lalu menolak map kerjaan rekan di Jumat sore" width="748" height="1564" loading="lazy">
+      <img src="img/testi3.webp" alt="Screenshot WhatsApp: supervisor gudang blank saat dimarahi di briefing, lalu memakai tombol Aku lagi blank" width="748" height="1564" loading="lazy">
+      <img src="img/testi4.webp" alt="Screenshot WhatsApp: anak membelikan app untuk mamanya yang punya warung, lalu sang mama berlatih menolak orang yang mau ngebon" width="748" height="1564" loading="lazy">
+      <img src="img/testi5.webp" alt="Screenshot WhatsApp: guru SMA yang usulnya diulang rekan di rapat MGMP, lalu mencatatnya di Catatan Menang" width="748" height="1564" loading="lazy">
+    </div>
+    <div class="testi-dots" id="testiDots" aria-hidden="true">
+      <button type="button" class="on" data-i="0" aria-label="Testimoni 1"></button>
+      <button type="button" data-i="1" aria-label="Testimoni 2"></button>
+      <button type="button" data-i="2" aria-label="Testimoni 3"></button>
+      <button type="button" data-i="3" aria-label="Testimoni 4"></button>
+      <button type="button" data-i="4" aria-label="Testimoni 5"></button>
+    </div>
+    <p class="narrow center testi-note">Setiap orang berbeda. Hasil latihan tidak sama untuk semua.</p>
+  </div>
+</section>
+
+<!-- NILAI (NARATIF, TANPA HARGA) -->
+<section class="sec-alt">
+  <div class="wrap">
+    <div class="narrow center" style="margin-bottom:24px;">
+      <h2>Berapa yang sudah keluar selama ini?</h2>
+    </div>
+    <div class="story">
+      <p>Coba hitung yang nggak kelihatan. Jam lembur untuk kerjaan yang bukan punyamu. Uang yang dipinjamkan karena nggak enak menolak. Ide yang dipresentasikan orang lain. Dan malam-malam memutar ulang kejadian sambil mikir "harusnya tadi aku bilang...".</p>
+      <p>Yang sudah mencari bantuan juga keluar sesuatu: buku yang dibaca sekali, seminar komunikasi yang tiketnya jutaan, kelas yang bahasnya panggung, bukan ruang rapat.</p>
+      <p class="punch">The Communicator sekali bayar, tanpa langganan, dan harganya jauh di bawah satu tiket seminar, padahal dipakai tiap hari. Angkanya ada di halaman berikutnya.</p>
+    </div>
+
+    <div class="price-card">
+      <h3 class="center">Yang kamu dapat begitu masuk</h3>
+      <ul class="incl">
+        <li>Cek Refleks 2 Menit</li>
+        <li>Latihan 10 menit pakai suara, dengan 4 mode: Suara, Ketik, Cermin, Earphone</li>
+        <li>Jalur Dasar 7 Pola Tekanan</li>
+        <li>40 situasi dengan kalimat pegangan versi halus dan tegas</li>
+        <li>Ronde Desakan di setiap situasi</li>
+        <li>Hari H dan Kartu Saku</li>
+        <li>Tombol Aku lagi blank</li>
+        <li>Kalimatku, Catatan Menang, dan Riwayat</li>
+        <li>4 bonus cetak</li>
+        <li>Pindah Progres untuk ganti HP</li>
+      </ul>
+      <div class="once-box">
+        <b>Sekali bayar, tanpa langganan.</b>
+        Semua fitur langsung terbuka, tanpa paket basic dan premium.
+      </div>
+      <div class="cta-block center">
+        <a class="btn" href="checkout.html">Mulai Cek Refleks 2 Menit →</a>
+        <p class="btn-note">Panduan Akses berisi kode masuk dikirim ke email yang kamu pakai saat order.</p>
+      </div>
+    </div>
+
+    <div class="flow">
+      <h3>Dari bayar sampai latihan pertama, tiga langkah.</h3>
+      <ol>
+        <li><b>Selesaikan pembayaran</b>Bisa pakai QRIS, transfer bank, atau e-wallet.</li>
+        <li><b>Buka email, klik link biru</b>Klik link biru yang diawali drive.google.com, bukan tombol “Unduh Produk”. Kalau belum ada di kotak masuk, cek folder Spam atau Promosi.</li>
+        <li><b>Masukkan kode, lalu mulai</b>Buka tcom-kit.netlify.app, masukkan kode, kenalan sebentar, lalu kerjakan Cek Refleks 2 Menit.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section>
+  <div class="wrap">
+    <div class="narrow">
+      <h2 class="center" style="margin-bottom:26px;">Pertanyaan yang sering masuk</h2>
+      <div class="faq-key">
+        <h3>Aku sudah bayar. Kodenya di mana?</h3>
+        <ol>
+          <li>Buka email pembelianmu.</li>
+          <li>Klik <b>link biru yang diawali drive.google.com</b>.</li>
+          <li>PDF Panduan Akses terbuka. Kodenya ada di dalamnya.</li>
+        </ol>
+      </div>
+
+      <div class="faq-key">
+        <h3>Aku sudah klik &quot;Unduh Produk&quot;, tapi nggak ada kodenya.</h3>
+        <p>Nggak apa-apa, cuma salah klik. Balik ke email yang sama, lalu:</p>
+        <ol>
+          <li>Cari <b>link biru yang diawali drive.google.com</b>. Letaknya di atas tombol Unduh Produk.</li>
+          <li>Klik link itu, bukan tombolnya.</li>
+          <li>Kodenya ada di PDF Panduan Akses yang terbuka.</li>
+        </ol>
+      </div>
+
+      <div class="faq">
+        <details><summary>Kodenya ditolak.</summary><div class="ans">Pastikan kamu membuka tcom-kit.netlify.app, lalu ketik atau salin kode dari Panduan Akses apa adanya. Huruf besar kecil dan spasi yang ikut tersalin nggak masalah. Masih ditolak? Hubungi admin lewat kontak yang ada di email pembelian.</div></details>
+        <details><summary>Harganya berapa?</summary><div class="ans">Harganya tertera di halaman pembayaran setelah kamu klik tombol Mulai. Sekali bayar, tanpa biaya bulanan, dan semua fitur langsung terbuka.</div></details>
+        <details><summary>Ini app yang harus di-install?</summary><div class="ans">Nggak. The Communicator dibuka lewat browser di HP atau laptop. Supaya cepat dibuka, simpan ke layar utama HP seperti app biasa.</div></details>
+        <details><summary>Perlu bikin akun atau password?</summary><div class="ans">Nggak. Cukup satu kode akses.</div></details>
+        <details><summary>Suaraku direkam?</summary><div class="ans">Nggak. App ini tidak merekam dan tidak menyimpan suara. Nama, jawaban latihan, Kalimatku, dan catatanmu tersimpan di HP-mu saja, bukan di server kami. Di Chrome, browser mengirim suara ke Google untuk diubah jadi teks. Kalau nggak nyaman, pakai mode Ketik, Cermin, atau Earphone.</div></details>
+        <details><summary>Mic-nya nggak jalan.</summary><div class="ans">Buka app di Chrome (Android) atau Safari (iPhone), bukan dari dalam aplikasi Facebook, Instagram, atau TikTok. Izinkan mikrofon saat diminta dan pastikan ada internet. Di iPhone, nyalakan Dikte dulu di Pengaturan, Umum, Papan Ketik. Sambil menunggu, app otomatis pindah ke mode Ketik.</div></details>
+        <details><summary>Kalau ganti HP, progresnya ikut?</summary><div class="ans">Bisa. Buka Pindah Progres dan salin kodenya. Di HP baru, masukkan kode akses yang sama, lalu tempel kode Pindah Progres tadi.</div></details>
+        <details><summary>Berapa lama sehari?</summary><div class="ans">Sekitar 10 menit untuk tiga situasi. Selesai lebih cepat juga nggak apa-apa.</div></details>
+        <details><summary>Apa ini terapi untuk kecemasan sosial?</summary><div class="ans">Bukan. Ini latihan komunikasi sehari-hari, bukan terapi dan bukan pengganti psikolog. Kalau rasa takut bicaranya sampai bikin panik, susah tidur berhari-hari, atau kamu mulai menghindari sekolah atau kantor, bicara dengan psikolog atau layanan kesehatan jiwa adalah langkah yang tepat. Info layanannya ada di menu Bantuan.</div></details>
+        <details><summary>Tempatku ramai, bisa latihan?</summary><div class="ans">Bisa. Pakai mode Ketik, atau Earphone: kalimat dibacakan di telinga, kamu ulangi berbisik atau dalam hati. Mode Cermin cocok kalau kamu sendirian di kamar.</div></details>
+        <details><summary>Kalau bolong beberapa hari?</summary><div class="ans">Nggak apa-apa. Progres nggak di-reset. Lanjut dari hari Jalur Dasar yang belum selesai.</div></details>
+        <details><summary>Setelah 7 hari Jalur Dasar, terus gimana?</summary><div class="ans">Latihan berlanjut sebagai Latihan bebas: app mendahulukan situasi yang refleksnya masih keluar, baru yang baru. Kamu juga bisa memilih situasi sendiri, membuat Hari H, atau mengulang Jalur Dasar dari Hari 1.</div></details>
+        <details><summary>Ada biaya bulanan?</summary><div class="ans">Nggak ada. Sekali bayar.</div></details>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING -->
+<section class="sec-deep">
+  <div class="wrap">
+    <div class="narrow center">
+      <h2>Malam ini cukup mulai dari satu situasi.</h2>
+      <p class="lead" style="margin-top:20px;">Kamu sudah coba menahan diri, baca buku, dan nonton video tips ngomong. Satu hal yang belum: mengucapkan kalimatnya berkali-kali sebelum momennya datang.</p>
+      <p class="closing-line">Kalimatnya sudah ada. Tinggal kamu latih.</p>
+      <div class="cta-block">
+        <a class="btn" href="checkout.html">Mulai Cek Refleks 2 Menit →</a>
+        <p class="btn-note">Dibuka dari browser HP atau laptop. Tanpa install, tanpa akun.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <a class="logo" href="index.html">The <em>Communicator</em></a>
+    <small>© 2026 The Communicator. Semua hak dilindungi.</small>
+  </div>
+</footer>
+
+<div class="sticky-cta" id="stickyCta">
+  <div class="sp">
+    <b>Latihan kalimat 10 menit sehari</b>
+    <small>Buka dari HP, tanpa install</small>
+  </div>
+  <a class="btn" href="checkout.html">Mulai</a>
+</div>
+
+<div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="Tampilan app diperbesar">
+  <button type="button" class="lb-close" id="lbClose" aria-label="Tutup gambar">
+    <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M5.5 5.5l9 9M14.5 5.5l-9 9" stroke="#241A1E" stroke-width="1.8" stroke-linecap="round"/></svg>
+  </button>
+  <div class="lb-inner"><img id="lbImg" alt=""></div>
+</div>
+
+<script>
+(function(){
+  var bar=document.getElementById('stickyCta');
+  var hero=document.querySelector('.hero');
+  if(!bar||!hero)return;
+  document.body.classList.add('has-sticky');
+  function check(){bar.classList.toggle('on',hero.getBoundingClientRect().bottom<0);}
+  check();
+  window.addEventListener('scroll',check,{passive:true});
+  window.addEventListener('resize',check);
+})();
+
+/* geser + titik untuk testimoni dan alat (HP) */
+function scroller(trackSel,itemSel,dotsId){
+  var track=document.querySelector(trackSel),dots=document.getElementById(dotsId);
+  if(!track||!dots)return;
+  var slides=track.querySelectorAll(itemSel),btns=dots.querySelectorAll('button');
+  function active(){
+    var mid=track.scrollLeft+track.clientWidth/2,best=0,min=Infinity;
+    for(var i=0;i<slides.length;i++){
+      var c=slides[i].offsetLeft+slides[i].offsetWidth/2,d=Math.abs(c-mid);
+      if(d<min){min=d;best=i;}
+    }
+    for(var j=0;j<btns.length;j++)btns[j].classList.toggle('on',j===best);
+  }
+  var t;
+  track.addEventListener('scroll',function(){clearTimeout(t);t=setTimeout(active,60);},{passive:true});
+  for(var k=0;k<btns.length;k++){
+    btns[k].addEventListener('click',function(){
+      var el=slides[Number(this.getAttribute('data-i'))];
+      if(!el)return;
+      track.scrollTo({left:el.offsetLeft-(track.clientWidth-el.offsetWidth)/2,behavior:'smooth'});
+    });
+  }
+  active();
+}
+scroller('.testi-grid','img','testiDots');
+scroller('#alatTrack','.alat-item','alatDots');
+
+/* tab alat (desktop) */
+(function(){
+  var tabs=document.querySelectorAll('.alat-tabs [role="tab"]');
+  function pick(tab){
+    for(var i=0;i<tabs.length;i++){
+      var on=tabs[i]===tab;
+      tabs[i].setAttribute('aria-selected',on?'true':'false');
+      tabs[i].setAttribute('tabindex',on?'0':'-1');
+      document.getElementById(tabs[i].getAttribute('aria-controls')).classList.toggle('on',on);
+    }
+  }
+  for(var i=0;i<tabs.length;i++){
+    tabs[i].addEventListener('click',function(){pick(this);});
+    tabs[i].addEventListener('keydown',function(e){
+      var idx=Array.prototype.indexOf.call(tabs,this),n=null;
+      if(e.key==='ArrowRight')n=tabs[(idx+1)%tabs.length];
+      if(e.key==='ArrowLeft')n=tabs[(idx-1+tabs.length)%tabs.length];
+      if(n){e.preventDefault();pick(n);n.focus();}
+    });
+  }
+})();
+
+/* lightbox: membuka versi gambar yang sedang tampil (HP atau desktop) */
+(function(){
+  var lb=document.getElementById('lightbox'),img=document.getElementById('lbImg'),close=document.getElementById('lbClose');
+  var last=null;
+  function open(src,alt){
+    img.src=src;img.alt=alt||'';
+    lb.classList.add('on');document.body.style.overflow='hidden';close.focus();
+  }
+  function shut(){lb.classList.remove('on');img.removeAttribute('src');document.body.style.overflow='';if(last)last.focus();}
+  var zs=document.querySelectorAll('[data-zoom]');
+  for(var i=0;i<zs.length;i++){
+    zs[i].setAttribute('tabindex','0');
+    zs[i].setAttribute('role','button');
+    zs[i].addEventListener('click',function(){last=this;open(this.currentSrc||this.src,this.alt);});
+    zs[i].addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();this.click();}});
+  }
+  close.addEventListener('click',shut);
+  lb.addEventListener('click',function(e){if(e.target===lb)shut();});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&lb.classList.contains('on'))shut();});
+})();
+</script>
+</body>
+</html>
